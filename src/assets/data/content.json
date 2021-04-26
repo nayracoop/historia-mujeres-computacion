@@ -1,0 +1,20 @@
+{
+    "cover" : {
+        "title" : "Historia de las mujeres en programación",
+        "collage" : ""
+    },
+    "timeline" : [
+        {
+            "year":"1900",
+            "title": "Titulo de la parte 1",
+            "text":"Texto de la parte 1",
+            "collage":""
+        },
+        {
+            "year":"1950",
+            "title": "Titulo de la parte 2",
+            "text":"Texto de la parte 2",
+            "collage":""
+        }
+    ]
+}
