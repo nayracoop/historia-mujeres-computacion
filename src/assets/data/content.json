@@ -5,16 +5,88 @@
     },
     "timeline" : [
         {
-            "year":"1900",
-            "title": "Titulo de la parte 1",
-            "text":"Texto de la parte 1",
-            "collage":""
+            "decade":"1950",
+            "collage":"",
+            "texts":[
+                {
+                    "title": "Titulo 1 de la parte 1",
+                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+                },
+                {
+                    "title": "Titulo 2 de la parte 1",
+                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+                }
+            ]
         },
         {
-            "year":"1950",
-            "title": "Titulo de la parte 2",
-            "text":"Texto de la parte 2",
-            "collage":""
+            "decade":"1960",
+            "collage":"",
+            "texts":[
+                {
+                    "title": "Titulo 1 de la parte 2",
+                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+                },
+                {
+                    "title": "Titulo 2 de la parte 2",
+                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+                }
+            ]
+        },
+        {
+            "decade":"1970",
+            "collage":"",
+            "texts":[
+                {
+                    "title": "Titulo 1 de la parte 3",
+                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                },
+                {
+                    "title": "Titulo 2 de la parte 3",
+                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                }
+            ]
+        },
+        {
+            "decade":"1980",
+            "collage":"",
+            "texts":[
+                {
+                    "title": "Titulo 1 de la parte 4",
+                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                },
+                {
+                    "title": "Titulo 2 de la parte 4",
+                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                }
+            ]
+        },
+        {
+            "decade":"1990",
+            "collage":"",
+            "texts":[
+                {
+                    "title": "Titulo 1 de la parte 5",
+                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                },
+                {
+                    "title": "Titulo 2 de la parte 5",
+                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                }
+            ]
+        },
+        {
+            "decade":"2000",
+            "collage":"",
+            "texts":[
+                {
+                    "title": "Titulo 1 de la parte 6",
+                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                },
+                {
+                    "title": "Titulo 2 de la parte 6",
+                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                }
+            ]
         }
     ]
 }
