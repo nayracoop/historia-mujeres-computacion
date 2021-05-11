@@ -15,6 +15,7 @@ const TimelineContainer = (props) => {
             { props.content.map( (pageContent, key) => {
                 return(
                     <TimelinePage
+                        key={key}
                         content={pageContent}>
                     </TimelinePage>
                 )})
