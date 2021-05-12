@@ -2,12 +2,12 @@ import React from 'react';
 import styled from 'styled-components'
 import TimelinePageText from './TimelinePageText'
 import CollagesContainer from '../Collages/CollagesContainer'
-import background from '../../assets/img/background.png';
 
 const Wrapper = styled.div`
     width: 100%;
     height:100%;
-    background-image: url(${background});
+    max-width:${ props => props.theme.layout.l}px;
+    margin:0 auto;
 `; 
 
 const Grid = styled.div`
@@ -22,11 +22,9 @@ const TextSection = styled.div`
 `;
 
 const CollageSection = styled.div`
-    display: grid;
-    justify-content: left;
-    align-content: flex-end;
-    padding-bottom: 0px;
-
+    position:relative;
+    width:120%;
+    left:-20%;
 `;
 
 const Year = styled.div`
@@ -35,26 +33,28 @@ const Year = styled.div`
     grid-gap: 5px
 `;
 
-const renderTextSection = (content) => {
+const renderTextSection = (content, key) => {
     return(
         <TimelinePageText
+            key={key}
             title={content.title}
             text={content.text}>
         </TimelinePageText>
     )
 }
+
 const TimelinePage = (props) => {
 
     return (
         <Wrapper>
             <Grid>
                 <CollageSection>
-                    <CollagesContainer />
+                    <CollagesContainer collage={props.content.collage} />
                 </CollageSection>
                 <TextSection>
                     { props.content.texts.map( (content, key) => {
                         return(
-                            renderTextSection(content)
+                            renderTextSection(content, key)
                         )})
                     }
                 </TextSection>

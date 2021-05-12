@@ -5,6 +5,10 @@ import Cover from '../Components/Cover'
 import TimelineContainer from '../Components/Timeline/TimelineContainer'
 
 import content from '../assets/data/content.json'
+import background from '../assets/img/background.jpg';
+
+import { useEffect } from "react";
+import {InvertedSCroll} from '../animations/Animations'
 
 const Theme = {
     fonts : {
@@ -18,7 +22,7 @@ const Theme = {
         xs:"",
         s:"",
         m:"",
-        l:"",
+        l:"1280",
         xl:""
     }
 
@@ -30,6 +34,9 @@ const Background = styled.div`
   left:0;
   width:100%;
   height:100%;
+  background-image:url(${background});
+  background-size:cover;
+  z-index:-1;
 `
 
 

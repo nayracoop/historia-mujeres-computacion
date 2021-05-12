@@ -1,18 +1,20 @@
 import React from 'react';
 import styled from 'styled-components'
-import temporaryCollage from '../../assets/img/collage.png';
 
+const Wrapper = styled.div`
+    width:90%;
+`
 
 const TemporaryCollage = styled.img`
     width: 100%;
 `; 
 
 
-const Collage = () => {
+const Collage = (props) => {
     return (
-        <div>
-            <TemporaryCollage src={temporaryCollage} />
-        </div>
+        <Wrapper>
+            <TemporaryCollage src={require(`../../assets/img/collages/complete/${props.collage}.png`).default}/>
+        </Wrapper>
     );
 };
 
