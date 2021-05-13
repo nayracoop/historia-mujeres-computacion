@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 import TimelinePageText from './TimelinePageText'
 import CollagesContainer from '../Collages/CollagesContainer'
+import Year from '../Timeline/Year'
 
 const Wrapper = styled.div`
     width: 100%;
@@ -17,8 +18,6 @@ const Grid = styled.div`
 
 const TextSection = styled.div`
     justify-content: right;
-    padding-top: 25%;
-    padding-right: 10%;
 `;
 
 const CollageSection = styled.div`
@@ -27,11 +26,17 @@ const CollageSection = styled.div`
     left:-20%;
 `;
 
-const Year = styled.div`
-    display: grid
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5px
-`;
+const TimelineConector = styled.div `
+    position: absolute;
+    width: 1px;
+    left:50%;
+    margin-top:-5%;
+    height: 90%;
+    z-index: -1;
+    border-left: dashed 2px #000;
+`
+
+
 
 const renderTextSection = (content, key) => {
     return(
@@ -44,9 +49,10 @@ const renderTextSection = (content, key) => {
 }
 
 const TimelinePage = (props) => {
-
     return (
         <Wrapper>
+            <Year year={props.content.decade}></Year>
+            <TimelineConector></TimelineConector>
             <Grid>
                 <CollageSection>
                     <CollagesContainer collage={props.content.collage} />

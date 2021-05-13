@@ -7,8 +7,6 @@ import TimelineContainer from '../Components/Timeline/TimelineContainer'
 import content from '../assets/data/content.json'
 import background from '../assets/img/background.jpg';
 
-import { useEffect } from "react";
-import {InvertedSCroll} from '../animations/Animations'
 
 const Theme = {
     fonts : {

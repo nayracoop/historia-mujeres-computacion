@@ -1,12 +1,14 @@
 {
     "cover" : {
         "title" : "Historia de las mujeres en programación",
-        "collage" : "portada"
+        "collage" : "portada",
+        "collagePosition":"left"
     },
     "timeline" : [
         {
             "decade":"1950",
             "collage":"01",
+            "collagePosition":"right",
             "texts":[
                 {
                     "title": "Titulo 1 de la parte 1",
@@ -21,6 +23,7 @@
         {
             "decade":"1960",
             "collage":"02",
+            "collagePosition":"left",
             "texts":[
                 {
                     "title": "Titulo 1 de la parte 2",
@@ -35,6 +38,7 @@
         {
             "decade":"1970",
             "collage":"03",
+            "collagePosition":"right",
             "texts":[
                 {
                     "title": "Titulo 1 de la parte 3",
@@ -49,6 +53,7 @@
         {
             "decade":"1980",
             "collage":"04",
+            "collagePosition":"left",
             "texts":[
                 {
                     "title": "Titulo 1 de la parte 4",
@@ -63,6 +68,7 @@
         {
             "decade":"1990",
             "collage":"01",
+            "collagePosition":"right",
             "texts":[
                 {
                     "title": "Titulo 1 de la parte 5",
@@ -77,6 +83,7 @@
         {
             "decade":"2000",
             "collage":"02",
+            "collagePosition":"left",
             "texts":[
                 {
                     "title": "Titulo 1 de la parte 6",
