@@ -9,6 +9,7 @@ const BackgroundImage = styled.img`
     margin-top:-70%;
     width:100%;
     filter: invert(75%);
+    z-index:-1;
 `
 
 const Wrapper = styled.div`

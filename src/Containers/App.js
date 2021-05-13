@@ -14,16 +14,15 @@ const Theme = {
         text:"Open Sans"
     },
     colors:{
-        text:"",
+        text:"#111111",
     },
     layout:{
         xs:"",
         s:"",
-        m:"",
+        m:"768",
         l:"1280",
         xl:""
     }
-
 }
 
 const Background = styled.div`
@@ -34,7 +33,8 @@ const Background = styled.div`
   height:100%;
   background-image:url(${background});
   background-size:cover;
-  z-index:-1;
+  z-index:-2;
+ 
 `
 
 
