@@ -7,98 +7,130 @@
     },
     "timeline" : [
         {
-            "decade":"1950",
+            "decade":"1892",
             "collage":"01",
             "collagePosition":"right",
             "highlightColor":"pink",
             "texts":[
                 {
-                    "title": "Titulo 1 de la parte 1",
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+                    "title": "A computer wanted",
+                    "text": "Por muchas décadas “computer” se trató de un oficio. Se buscaban personas que hicieran cálculos complejos a mano para proyectos científicos. Para mediados del SXX ya la mayoría de ellas eran mujeres. Algunas de ellas tuvieron logros importantes en el proceso: calculando posiciones de estrellas descubrieron cometas y efemérides de planetas. "
                 },
                 {
-                    "title": "Titulo 2 de la parte 1",
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+                    "title": "",
+                    "text": ""
                 }
             ]
         },
         {
-            "decade":"1960",
+            "decade":"1940",
             "collage":"02",
             "collagePosition":"left",
             "highlightColor":"yellow",
             "texts":[
                 {
-                    "title": "Titulo 1 de la parte 2",
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+                    "title": "Primeras computadoras",
+                    "text": "Objetivo: investigación o militar. Al principio analógicas, luego electromecánicas y después digitales. Novedad: primeras computadoras programables (las instrucciones no eran fijas sino que las podía dar una persona de acuerdo a su necesidad para que la computadora las ejecute)."
                 },
                 {
-                    "title": "Titulo 2 de la parte 2",
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+                    "title": "",
+                    "text": ""
                 }
             ]
         },
         {
-            "decade":"1970",
+            "decade":"1950",
             "collage":"03",
             "collagePosition":"right",
             "highlightColor":"purple",
             "texts":[
                 {
-                    "title": "Titulo 1 de la parte 3",
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                    "title": "Know nothing about computers? Then we’ll teach you (and pay you while doing so)",
+                    "text": "Las empresas empleaban personas sin experiencia en programación, proveyéndoles capacitación y formación. Con pruebas de ingreso aseguraban requisitos mínimos de conocimiento en lógica y matemática. La escasa profesionalización del área la hacía inclusiva y abierta para las personas sin conocimientos específicos. Muchas mujeres se iniciaron de esta manera."
                 },
                 {
-                    "title": "Titulo 2 de la parte 3",
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                    "title": "",
+                    "text": ""
                 }
             ]
         },
         {
-            "decade":"1980",
+            "decade":"1960",
             "collage":"04",
             "collagePosition":"left",
             "highlightColor":"green",
             "texts":[
                 {
-                    "title": "Titulo 1 de la parte 4",
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                    "title": "The Computer Girls",
+                    "text": "Crece la demanda de programadorxs porque las empresas comienzan un proceso de automatización de la información. Este rubro es uno de los pocos bien pagos que no está vedado para las mujeres. Su participación está en 30%-50%, aunque siempre lejos de los puestos altos, cobrando menos que sus colegas hombres y sufriendo la doble carga laboral cuando son madres."
                 },
                 {
-                    "title": "Titulo 2 de la parte 4",
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                    "title": "Profesionalización, exclusión y crisis",
+                    "text": "Comienza la profesionalización de la programación a través de la ingeniería de software. Se sistematizan los conocimientos a través de carreras y certificaciones, y los trabajos empiezan a excluir a personas sin estudios formales en el área.\nSe desencadena una crisis en la industria del software: proyectos con bugs, no entregados a tiempo, de baja calidad, que no cumplen los requerimientos."
                 }
             ]
         },
         {
-            "decade":"1990",
+            "decade":"Las pioneras",
             "collage":"01",
             "collagePosition":"right",
             "highlightColor":"pink",
             "texts":[
                 {
-                    "title": "Titulo 1 de la parte 5",
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                    "title": "",
+                    "text": ""
                 },
                 {
-                    "title": "Titulo 2 de la parte 5",
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                    "title": "",
+                    "text": ""
                 }
             ]
         },
         {
-            "decade":"2000",
+            "decade":"1970",
             "collage":"02",
             "collagePosition":"left",
             "highlightColor":"orange",
             "texts":[
                 {
-                    "title": "Titulo 1 de la parte 6",
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                    "title": "Los estereotipos pisan fuerte",
+                    "text": "A medida que la disciplina se desarrolla y los trabajos de directivos y ejecutivos en la industria crecen, se enraizan los estereotipos del programador. Los psicólogos y entrevistadores de la época los caracterizaban como hombres, antisociales, introvertidos y solitarios."
                 },
                 {
-                    "title": "Titulo 2 de la parte 6",
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                    "title": "",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "decade":"1980",
+            "collage":"02",
+            "collagePosition":"left",
+            "highlightColor":"orange",
+            "texts":[
+                {
+                    "title": "PCs para ellos, cocinitas para ellas.",
+                    "text": "Las casas que tenían una computadora personal solían colocarla en las habitaciones de los hombres. La industria de los videojuegos era destinada especialmente a varones, reforzando el estereotipo que venían instalando las películas sobre los programadores como hombres."
+                },
+                {
+                    "title": "",
+                    "text": "Se populariza la industria y crece la oferta de programadores y estudiantes. Se limita el ingreso a las universidades a gente que ya tuviera experiencia programando (estos eran varones por lo general). Este ambiente tan masculinizado se vuelve hostil: las mujeres solían ser cosificadas, ignoradas e interrumpidas por compañeros, profesores y colegas. Hacía varios años que su éxodo había comenzado."
+                }
+            ]
+        },
+        {
+            "decade":"1990",
+            "collage":"02",
+            "collagePosition":"left",
+            "highlightColor":"orange",
+            "texts":[
+                {
+                    "title": "",
+                    "text": "En los cursos iniciales de las carreras de computación la presencia de varones continuó siendo mayoritaria. Las mujeres se sentían desmotivadas por su falta de experiencia previa en comparación con los varones. La formación de “clubs” y comportamientos tribales reforzó la masculinización del ambiente y la explusión de las mujeres."
+                },
+                {
+                    "title": "Por una universidad más inclusiva.",
+                    "text": "Hubo quienes lucharon contra esta exclusión, enfocándose en nivelar los conocimientos de las personas en el primer año de la universidad, agrupándolxs de acuerdo a los conocimientos previos. Su propósito era mejorar el ambiente de aprendizaje, y permitir que aquellas personas que no habían tenido la posibilidad de acercarse previamente a la programación no se vean frustradas al momento de comenzar sus estudios."
                 }
             ]
         }
