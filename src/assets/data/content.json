@@ -1,6 +1,6 @@
 {
     "cover" : {
-        "title" : "Historia de las mujeres en programación",
+        "title" : "La historia que no nos contaron: la programación como testigo de una exclusión.",
         "collage" : "portada",
         "collagePosition":"left",
         "highlightColor":"blue"
@@ -13,12 +13,12 @@
             "highlightColor":"pink",
             "texts":[
                 {
-                    "title": "A computer wanted",
-                    "text": "Por muchas décadas “computer” se trató de un oficio. Se buscaban personas que hicieran cálculos complejos a mano para proyectos científicos. Para mediados del SXX ya la mayoría de ellas eran mujeres. Algunas de ellas tuvieron logros importantes en el proceso: calculando posiciones de estrellas descubrieron cometas y efemérides de planetas. "
+                    "title": "NY Times: A computer wanted.",
+                    "text": "Por muchas décadas “computer” se trató de un oficio. Se trataba de hacer cálculos complejos a mano para proyectos científicos. Para mediados del SXX ya la mayoría de ellas eran mujeres. Entre ellas se encontraban las Harvard Computers, un grupo de mujeres que clasificaban astros y medían su brillo y color. Algunas de ellas tuvieron logros importantes en el proceso: calculando posiciones de estrellas descubrieron cometas y efemérides de planetas. "
                 },
                 {
-                    "title": "",
-                    "text": ""
+                    "title": "Ada Lovelace.",
+                    "text": "Considerada por muchxs como la primera programadora. Fue matemática y la primera en reconocer que la Máquina Analítica de Babbage podría utilizarse para correr algoritmos y no solo para hacer cálculos."
                 }
             ]
         },
@@ -30,11 +30,11 @@
             "texts":[
                 {
                     "title": "Primeras computadoras",
-                    "text": "Objetivo: investigación o militar. Al principio analógicas, luego electromecánicas y después digitales. Novedad: primeras computadoras programables (las instrucciones no eran fijas sino que las podía dar una persona de acuerdo a su necesidad para que la computadora las ejecute)."
+                    "text": "Objetivo: investigación o militar. Al principio analógicas, luego electromecánicas y después digitales. Novedad: primeras computadoras programables (las instrucciones no eran fijas sino que las podía dar una persona de acuerdo a su necesidad para que la computadora las ejecute). Más presencia de mujeres en el mercado laboral a causa de la Segunda Guerra Mundial."
                 },
                 {
-                    "title": "",
-                    "text": ""
+                    "title": "Women wanted!",
+                    "text": "Las programadoras (llamadas 'operadoras') de la primera computadora con estas características (ENIAC) no solo comprendían cómo computar lo que les solicitaban: estudiaron la lógica, estructura, circuitos y formas de operar de la máquina. Algunas de ellas incluso siguieron investigando y diseñaron algoritmos y contribuyeron en el desarrollo de computadoras personales. "
                 }
             ]
         },
@@ -45,12 +45,12 @@
             "highlightColor":"purple",
             "texts":[
                 {
-                    "title": "Know nothing about computers? Then we’ll teach you (and pay you while doing so)",
+                    "title": "Know nothing about computers? Then we’ll teach you (and pay you while doing so).",
                     "text": "Las empresas empleaban personas sin experiencia en programación, proveyéndoles capacitación y formación. Con pruebas de ingreso aseguraban requisitos mínimos de conocimiento en lógica y matemática. La escasa profesionalización del área la hacía inclusiva y abierta para las personas sin conocimientos específicos. Muchas mujeres se iniciaron de esta manera."
                 },
                 {
-                    "title": "",
-                    "text": ""
+                    "title": "Grace Hopper",
+                    "text": "Matemática, formó parte del equipo que desarrolló la primera computadora para propósitos generales (UNIVAC I). Además, propuso el desarrollo de un lenguaje de programación que pudiera ser escrito en lenguaje coloquial en lugar de símbolos. Sus ideas fueron rechazadas por años. Finamente, desarrolló para este propósito un compilador y el lenguaje FLOW-MATIC (más tarde COBOL)."
                 }
             ]
         },
@@ -65,24 +65,8 @@
                     "text": "Crece la demanda de programadorxs porque las empresas comienzan un proceso de automatización de la información. Este rubro es uno de los pocos bien pagos que no está vedado para las mujeres. Su participación está en 30%-50%, aunque siempre lejos de los puestos altos, cobrando menos que sus colegas hombres y sufriendo la doble carga laboral cuando son madres."
                 },
                 {
-                    "title": "Profesionalización, exclusión y crisis",
-                    "text": "Comienza la profesionalización de la programación a través de la ingeniería de software. Se sistematizan los conocimientos a través de carreras y certificaciones, y los trabajos empiezan a excluir a personas sin estudios formales en el área.\nSe desencadena una crisis en la industria del software: proyectos con bugs, no entregados a tiempo, de baja calidad, que no cumplen los requerimientos."
-                }
-            ]
-        },
-        {
-            "decade":"Las pioneras",
-            "collage":"01",
-            "collagePosition":"right",
-            "highlightColor":"pink",
-            "texts":[
-                {
-                    "title": "",
-                    "text": ""
-                },
-                {
-                    "title": "",
-                    "text": ""
+                    "title": "Algunas pioneras.",
+                    "text": "Margaret Hamilton lideró el equipo del MIT que diseñó el software para las misiones Apollo y Skylab. Mary Kenneth Keller fue la primera mujer en tener un doctorado en Ciencias de la Computación y contribuyó al desarrollo de BASIC."
                 }
             ]
         },
@@ -93,12 +77,12 @@
             "highlightColor":"orange",
             "texts":[
                 {
-                    "title": "Los estereotipos pisan fuerte",
-                    "text": "A medida que la disciplina se desarrolla y los trabajos de directivos y ejecutivos en la industria crecen, se enraizan los estereotipos del programador. Los psicólogos y entrevistadores de la época los caracterizaban como hombres, antisociales, introvertidos y solitarios."
+                    "title": "Profesionalización, exclusión y crisis",
+                    "text": "Hace unos años había comenzado la profesionalización de la programación a través de la ingeniería de software. Se sistematizan los conocimientos a través de carreras y certificaciones, y los trabajos empiezan a excluir a personas sin estudios formales en el área.\nSe desencadena una crisis en la industria del software: proyectos con bugs, no entregados a tiempo, de baja calidad, que no cumplen los requerimientos."
                 },
                 {
-                    "title": "",
-                    "text": ""
+                    "title": "Los estereotipos pisan fuerte",
+                    "text": "A medida que la disciplina se desarrolla y los trabajos de directivos y ejecutivos en la industria crecen, se enraizan los estereotipos del programador. Los psicólogos y entrevistadores de la época los caracterizaban como hombres, antisociales, introvertidos y solitarios."
                 }
             ]
         },
