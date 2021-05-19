@@ -2,21 +2,68 @@ import React from 'react';
 import styled from 'styled-components'
 import Markdown from 'react-markdown'
 
-const Wrapper = styled.div`
-    min-width:100%;
-    height:100%;
-` 
-const Title = styled(Markdown)`
+import CollagesContainer from './Collages/CollagesContainer'
 
+const Wrapper = styled.div`
+    width: 100%;
+    max-width:${ props => props.theme.layout.l}px;
+    margin:0 auto;
+`; 
+
+const Grid = styled.div`
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    @media (max-width : ${props => props.theme.layout.m}px){
+        width:90%;
+        margin:0 auto;
+        grid-template-columns: 1fr;
+    }
+`;
+
+const TitleSection = styled.div`
+    justify-content: right;
+    align-self:center;
+    z-index: 999;
+`;
+
+const CollageSection = styled.div`
+    position:relative;
+    width:120%;
+`;
+
+const Title = styled(Markdown)`
+    font-family:${props => props.theme.fonts.display};
+    line-height: 1.8em;
+    font-size: 1.7em;
+    display: inline;
+
+    strong{
+        padding: 0.2em;
+        box-shadow: 0.2em 0 0 rgba(#fff,0.7), -0.2em 0 0 rgba(#fff,0.7);
+        background-color: #fff;
+        background-color: rgba(#fff,0.7);
+    }
 `
 
 const Cover = (props) => {
     const content = props.content
     return (
         <Wrapper>
-            <Title>{content.title}</Title>
+            <Grid>
+                <CollageSection >
+                    <CollagesContainer collage={content.collage} />
+                </CollageSection>
+                <TitleSection>
+                    <Title>{content.title}</Title>
+                </TitleSection>
+            </Grid>
         </Wrapper>
     );
 };
 
 export default Cover;
+
+
+
+

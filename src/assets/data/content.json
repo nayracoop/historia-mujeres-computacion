@@ -1,6 +1,6 @@
 {
     "cover" : {
-        "title" : "La historia que no nos contaron: la programación como testigo de una exclusión.",
+        "title" : "La historia que no nos contaron: **la programación como testigo de una exclusión.**",
         "collage" : "portada",
         "collagePosition":"left",
         "highlightColor":"blue"
@@ -10,7 +10,7 @@
             "decade":"1892",
             "collage":"01",
             "collagePosition":"right",
-            "highlightColor":"pink",
+            "highlightColor":"#2BA84A",
             "texts":[
                 {
                     "title": "NY Times: A computer wanted.",
@@ -26,7 +26,7 @@
             "decade":"1940",
             "collage":"02",
             "collagePosition":"left",
-            "highlightColor":"yellow",
+            "highlightColor":"#FFBC0A",
             "texts":[
                 {
                     "title": "Primeras computadoras",
@@ -42,7 +42,7 @@
             "decade":"1950",
             "collage":"03",
             "collagePosition":"right",
-            "highlightColor":"purple",
+            "highlightColor":"#EC7D10",
             "texts":[
                 {
                     "title": "Know nothing about computers? Then we’ll teach you (and pay you while doing so).",
@@ -58,7 +58,7 @@
             "decade":"1960",
             "collage":"04",
             "collagePosition":"left",
-            "highlightColor":"green",
+            "highlightColor":"#FC2F00",
             "texts":[
                 {
                     "title": "The Computer Girls",
@@ -73,8 +73,8 @@
         {
             "decade":"1970",
             "collage":"02",
-            "collagePosition":"left",
-            "highlightColor":"orange",
+            "collagePosition":"right",
+            "highlightColor":"#EC0868",
             "texts":[
                 {
                     "title": "Profesionalización, exclusión y crisis",
@@ -90,7 +90,7 @@
             "decade":"1980",
             "collage":"02",
             "collagePosition":"left",
-            "highlightColor":"orange",
+            "highlightColor":"#C200FB",
             "texts":[
                 {
                     "title": "PCs para ellos, cocinitas para ellas.",
@@ -105,11 +105,11 @@
         {
             "decade":"1990",
             "collage":"02",
-            "collagePosition":"left",
-            "highlightColor":"orange",
+            "collagePosition":"right",
+            "highlightColor":"#061826",
             "texts":[
                 {
-                    "title": "",
+                    "title": "Una carrera para gamers",
                     "text": "En los cursos iniciales de las carreras de computación la presencia de varones continuó siendo mayoritaria. Las mujeres se sentían desmotivadas por su falta de experiencia previa en comparación con los varones. La formación de “clubs” y comportamientos tribales reforzó la masculinización del ambiente y la explusión de las mujeres."
                 },
                 {

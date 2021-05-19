@@ -39,7 +39,8 @@ const Title = styled.h1`
 const Text = styled.div`
     padding:20px;
     padding-left:30px;
-    background-image: url(${require('../../assets/img/paper-background.jpg').default}) ;
+    //background-image: url(${require('../../assets/img/paper-background.jpg').default}) ;
+    background-color: #F1F1F1;
     background-size:100%;
     box-shadow: 1px 1px 7px 5px rgba(0, 0, 0, 0.2);
     margin-bottom:50px;
