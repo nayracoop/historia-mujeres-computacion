@@ -33,7 +33,7 @@ const Title = styled.h1`
     margin-bottom:1em;
     font-family: ${props => props.theme.fonts.display};
     color: ${props => props.highlightColor};
-    font-size:3.5em;
+    font-size:2.8em;
 `
 
 const Text = styled.div`

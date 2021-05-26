@@ -29,7 +29,6 @@ const TitleSection = styled.div`
 
 const CollageSection = styled.div`
     position:relative;
-    width:120%;
 `;
 
 const Title = styled(Markdown)`

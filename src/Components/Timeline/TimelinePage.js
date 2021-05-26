@@ -8,6 +8,10 @@ const Wrapper = styled.div`
     width: 100%;
     max-width:${ props => props.theme.layout.l}px;
     margin:0 auto;
+    
+    @media (max-width : ${props => props.theme.layout.l}px){
+        overflow-x: hidden;
+    }
 `; 
 
 const Grid = styled.div`
@@ -28,7 +32,6 @@ const TextSection = styled.div`
 const CollageSection = styled.div`
     position:relative;
     align-self:center;
-    width:120%;
 
     left:${props => props.collagePosition === "left" ? "-20%":"" };
     right:${props => props.collagePosition === "right" ? "-20%":"" };
@@ -36,13 +39,7 @@ const CollageSection = styled.div`
 `;
 
 const TimelineConector = styled.div `
-    position: absolute;
-    width: 1px;
-    left:50%;
-    margin-top:-5%;
-    height: 90%;
-    z-index: -1;
-    border-left: dashed 2px #000;
+
 `
 
 

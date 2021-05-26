@@ -3,6 +3,7 @@ import styled, { ThemeProvider } from 'styled-components'
 
 import Cover from '../Components/Cover'
 import TimelineContainer from '../Components/Timeline/TimelineContainer'
+import StatisticsContainer from '../Components/Statistics/StatisticsContainer'
 
 import content from '../assets/data/content.json'
 import background from '../assets/img/background.jpg';
@@ -42,6 +43,7 @@ const App = () => {
 
   const [coverContent, setCoverContent] = useState(content.cover)
   const [timelineParts, setTimelineParts] = useState(content.timeline)
+  const [statisticsParts, setStatisticsParts] = useState(content.statistics)
 
 
   return (
@@ -50,6 +52,8 @@ const App = () => {
         <Background></Background>
         <Cover content = {coverContent} ></Cover>
         <TimelineContainer content = {timelineParts}></TimelineContainer>
+        
+        <StatisticsContainer content = {statisticsParts}></StatisticsContainer>
       </ThemeProvider>
     </div>
   );

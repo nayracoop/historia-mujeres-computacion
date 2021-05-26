@@ -118,5 +118,82 @@
                 }
             ]
         }
-    ]
+    ],
+    "statistics" : {
+        "color" : "#061826",
+        "cover" :{
+            "title": "La influencia de los estereotipos en el presente",
+            "collage":""
+        },
+        "parts" : [
+            {
+                "title" : "Estereotipos ",
+                "illustration": "partida",
+                "texts" : [
+                    "del total de inscriptos en carreras relacionadas con la programación, menos del 16% no son hombres cis"                    
+                ],
+                "graphics" : [
+                    {
+                        "description" : "",
+                        "graphic" : ""
+                    },
+                    {
+                        "description" : "",
+                        "graphic" : ""
+                    }
+                ]
+            },
+            {
+                "title" : "Estudios y formación ",
+                "illustration": "desigualdad",
+                "texts" : [
+                    "del total de inscriptos en carreras relacionadas con la programación, menos del 16% no son hombres cis"                    
+                ],
+                "graphics" : [
+                    {
+                        "description" : "",
+                        "graphic" : ""
+                    },
+                    {
+                        "description" : "",
+                        "graphic" : ""
+                    }
+                ]
+            },
+            {
+                "title" : "Oportunidades",
+                "illustration": "oportunidades",
+                "texts" : [
+                    "del total de inscriptos en carreras relacionadas con la programación, menos del 16% no son hombres cis"                    
+                ],
+                "graphics" : [
+                    {
+                        "description" : "",
+                        "graphic" : ""
+                    },
+                    {
+                        "description" : "",
+                        "graphic" : ""
+                    }
+                ]
+            },
+            {
+                "title" : "--",
+                "illustration": "feedback",
+                "texts" : [
+                    "del total de inscriptos en carreras relacionadas con la programación, menos del 16% no son hombres cis"                    
+                ],
+                "graphics" : [
+                    {
+                        "description" : "",
+                        "graphic" : ""
+                    },
+                    {
+                        "description" : "",
+                        "graphic" : ""
+                    }
+                ]
+            }
+        ]
+    }
 }
