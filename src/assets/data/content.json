@@ -127,10 +127,12 @@
         },
         "parts" : [
             {
-                "title" : "Estereotipos ",
+                "title" : "1. Los estereotipos ",
                 "illustration": "partida",
                 "texts" : [
-                    "del total de inscriptos en carreras relacionadas con la programación, menos del 16% no son hombres cis"                    
+                    "En el mejor de los casos, las publicidades colocan a mujeres sólo en el rol de usuarias de tecnología -y de cierta tecnología-." , 
+                    "La crianza sesgada por la diferenciación de géneros delimita la creencia sobre nuestras propias capacidades.", 
+                    "La historia hegemónica no narra la historia de las mujeres y disiencias, sus aportes y participaciones."                   
                 ],
                 "graphics" : [
                     {
@@ -144,10 +146,10 @@
                 ]
             },
             {
-                "title" : "Estudios y formación ",
+                "title" : "La educación",
                 "illustration": "desigualdad",
                 "texts" : [
-                    "del total de inscriptos en carreras relacionadas con la programación, menos del 16% no son hombres cis"                    
+                    "La diferenciación en base al género de nuestra socialización primaria, condiciona los rumbos y elecciones de lxs adolescentes respecto a los estudios terciarios y universitarios."                    
                 ],
                 "graphics" : [
                     {
@@ -161,10 +163,10 @@
                 ]
             },
             {
-                "title" : "Oportunidades",
+                "title" : "La búsqueda de trabajo",
                 "illustration": "oportunidades",
                 "texts" : [
-                    "del total de inscriptos en carreras relacionadas con la programación, menos del 16% no son hombres cis"                    
+                    "Búsquedas laborales que desincentivan a las mujeres y disidencias a presentarse como candidatxs a los trabajos de tecnología (se pide más de lo que realmente se busca, y quienes deean postularse no se sienten motivadxs a hacerlo a menos que cumplan el 100% de los requisitos)."                    
                 ],
                 "graphics" : [
                     {
@@ -178,10 +180,17 @@
                 ]
             },
             {
-                "title" : "--",
+                "title" : "La experiencia en la industria",
                 "illustration": "feedback",
                 "texts" : [
-                    "del total de inscriptos en carreras relacionadas con la programación, menos del 16% no son hombres cis"                    
+                    "Las mujeres y disidencias encuentran muchas dificultades al momento de conservar el trabajo y también de disfrutarlo debido a diversos patrones que continuan excluyendoles:",
+                    "la desvalorización de su trabajo", 
+                    "el acoso sexual", 
+                    "feedback enfocado en la personalidad y no en el trabajo realizado", 
+                    "la diferencia en la asignación de ascensos por género –que a veces se suma a la especulación sobre la maternidad–;", 
+                    "la brecha salarial", 
+                    "la presión por tener que “demostrar” tener aptitudes para cargos jerárquicos", 
+                    "micromachismos cotidianos como mansplaining y manterrupting"                   
                 ],
                 "graphics" : [
                     {
@@ -194,6 +203,30 @@
                     }
                 ]
             }
+        ]
+    }, 
+    "reflexion" : {
+        "title" : "", 
+        "paragraphs" : [
+            "La desigualdad estructural presente en la sociedad ha condicionado la historia del desarrollo de la computación desde sus inicios, así como lo que conocemos de ella.",
+
+            "Recuperamos algunos de los hilos perdidos de la historia que nos contaron. Aquellos que traen relatos sobre referentes mujeres y disidencias que han bogado por el trabajo colaborativo, la importancia del desarrollo enfocado en las personas usuarias y consciente del impacto social que producen.",
+            
+            "Urge preguntarnos: Quiénes producen la tecnología que utilizamos?",
+            
+            "En Argentina hacia los años 70 las mujeres conformaron el 75% de les estudiantes en las carreras de informática. Sin embargo, en 2013 la proporción se redujo hasta un 18%.",
+            
+            "Continúan activos procesos de segregación horizontales <pisos pegajosos> y verticales <techos de cristal>.",
+            
+            "La búsqueda de profesionalización del área que excluye a quienes no pueden acceder a una educación formal, la socialización primaria y las publicidades minadas de sesgos y estereotipos binarios y machistas, la desigual distribución de las tareas de cuidado y el cultivo de ambientes hostiles de estudio y trabajo.",
+            
+            "Mecanismos de exclusión históricos y sistemáticos.",
+            
+            "Para las mujeres y disidencias no sólo es más difícil ingresar al ámbito de la tecnología sino también permanecer en él.",
+            
+            "Esto no sólo impacta en el área de la computación, sino que repercute en una dimensión más amplia por estar gran parte de nuestra vida atravesada por el uso que hacemos de las tecnologías digitales y los cambios sociales que provocan.",
+            
+           " Es necesario continuar desarticulando estereotipos y visibilizar historias de vida que contradicen los preconceptos dominantes, y poner en evidencia las consecuencias sociales, económicas y políticas que trae la falta de diversidad."
         ]
     }
 }
