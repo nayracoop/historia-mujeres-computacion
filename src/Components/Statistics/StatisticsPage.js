@@ -21,8 +21,8 @@ const Layout = styled.div`
         grid-template-columns: 1fr;
     }
 `
-const InfoSection = styled.div`
-    justify-content: right;
+const Info = styled.div`
+    padding:5%;
 `;
 
 const IllustrationSection = styled.div`
@@ -38,6 +38,13 @@ const Image = styled.img`
     width: 100%;
     margin: 0 auto;
 `
+const SectionTitle= styled.h2`
+    color:  ${props => props.color};
+`
+
+const SectionTexts= styled.p`
+    color:  ${props => props.color};
+`
 
 const GraphicsSection = styled.div`
     
@@ -46,16 +53,21 @@ const GraphicsSection = styled.div`
 
 const StatisticsPage = (props) => {
     const pageContent = props.content 
-    console.log(props.color)
+    console.log (pageContent)
     return (
         <Wrapper color = {props.color}>
             <Layout>
-                    <IllustrationSection>
+                    <IllustrationSection collagePosition={pageContent.illustrationPosition}>
                         <Image src={require(`../../assets/img/statistics/${pageContent.illustration}.jpg`).default}></Image>
                     </IllustrationSection>
-                    <InfoSection>
-
-                    </InfoSection>
+                    <Info>
+                        <SectionTitle color={props.color}>{pageContent.title}</SectionTitle>
+                        {pageContent.texts.map((text, key) => {
+                            return(
+                                <SectionTexts key={key}>{text}</SectionTexts>
+                            )
+                        } ) }
+                    </Info>
             </Layout>
             <GraphicsSection>
 

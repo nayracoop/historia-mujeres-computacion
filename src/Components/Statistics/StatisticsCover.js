@@ -38,14 +38,25 @@ const CollageSection = styled.div`
 const Title = styled(Markdown)`
     font-family:${props => props.theme.fonts.display};
     line-height: 1.8em;
-    font-size: 3.5em;
     font-weight:500;
     display: inline; 
+
         p{
+            font-size: 2.3em;
             border-radius: 10px;
-            padding:20px;
-            background-color: ${props => props.color};   
-            color: #e4e2e1;
+            color: ${props => props.color};   
+            text-align: left;
+
+            strong{
+                font-size: 2em;
+                line-height:1em;
+                margin-top: 20px;
+                display: inline-block;
+                padding: 20px 50px;
+                border-radius: 10px;
+                background-color: ${props => props.color};   
+                color: #e4e2e1; 
+            }
         }
     }
 `

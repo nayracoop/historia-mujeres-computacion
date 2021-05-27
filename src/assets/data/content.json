@@ -122,13 +122,14 @@
     "statistics" : {
         "color" : "#061826",
         "cover" :{
-            "title": "La influencia de los estereotipos en el presente",
+            "title": "Nuestro presente: **un mar de consencuencias**",
             "collage":""
         },
         "parts" : [
             {
                 "title" : "1. Los estereotipos ",
                 "illustration": "partida",
+                "illustrationPosition":"left",
                 "texts" : [
                     "En el mejor de los casos, las publicidades colocan a mujeres sólo en el rol de usuarias de tecnología -y de cierta tecnología-." , 
                     "La crianza sesgada por la diferenciación de géneros delimita la creencia sobre nuestras propias capacidades.", 
@@ -148,6 +149,7 @@
             {
                 "title" : "La educación",
                 "illustration": "desigualdad",
+                "illustrationPosition":"right",
                 "texts" : [
                     "La diferenciación en base al género de nuestra socialización primaria, condiciona los rumbos y elecciones de lxs adolescentes respecto a los estudios terciarios y universitarios."                    
                 ],
@@ -165,6 +167,7 @@
             {
                 "title" : "La búsqueda de trabajo",
                 "illustration": "oportunidades",
+                "illustrationPosition":"left",
                 "texts" : [
                     "Búsquedas laborales que desincentivan a las mujeres y disidencias a presentarse como candidatxs a los trabajos de tecnología (se pide más de lo que realmente se busca, y quienes deean postularse no se sienten motivadxs a hacerlo a menos que cumplan el 100% de los requisitos)."                    
                 ],
@@ -182,6 +185,7 @@
             {
                 "title" : "La experiencia en la industria",
                 "illustration": "feedback",
+                "illustrationPosition":"right",
                 "texts" : [
                     "Las mujeres y disidencias encuentran muchas dificultades al momento de conservar el trabajo y también de disfrutarlo debido a diversos patrones que continuan excluyendoles:",
                     "la desvalorización de su trabajo", 
