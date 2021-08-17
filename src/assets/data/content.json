@@ -4,6 +4,7 @@
         "collage" : "portada",
         "collagePosition":"left",
         "highlightColor":"blue",
+        "piecesFolder":"portada",
         "collagePieces": [
             {
                 "name":"portada-bg-circle.png",
@@ -44,9 +45,10 @@
             "collage":"01",
             "collagePosition":"right",
             "highlightColor":"#2BA84A",
+            "piecesFolder":"01",
             "collagePieces": [
                 {
-                    "name":"portada-bg-circle.png",
+                    "name":"01-background.png",
                     "width":"100%",
                     "left":"",
                     "right":"",
@@ -56,7 +58,7 @@
                     "animation":""
                 },
                 {
-                    "name":"portada-bg-dashed-circle.png",
+                    "name":"01-background.png",
                     "width":"50%",
                     "left":"",
                     "right":"",
@@ -66,7 +68,7 @@
                     "animation":""
                 },
                 {
-                    "name":"portada-bg-triangle.png",
+                    "name":"01-background.png",
                     "width":"20%",
                     "left":"",
                     "right":"",
@@ -92,9 +94,10 @@
             "collage":"02",
             "collagePosition":"left",
             "highlightColor":"#FFBC0A",
+            "piecesFolder":"02",
             "collagePieces": [
                 {
-                    "name":"portada-bg-circle.png",
+                    "name":"02-background-dashed-circle.png",
                     "width":"100%",
                     "left":"",
                     "right":"",
@@ -104,7 +107,7 @@
                     "animation":""
                 },
                 {
-                    "name":"portada-bg-dashed-circle.png",
+                    "name":"02-background-dashed-circle.png",
                     "width":"50%",
                     "left":"",
                     "right":"",
@@ -114,7 +117,7 @@
                     "animation":""
                 },
                 {
-                    "name":"portada-bg-triangle.png",
+                    "name":"02-background-dashed-circle.png",
                     "width":"20%",
                     "left":"",
                     "right":"",
@@ -140,9 +143,10 @@
             "collage":"03",
             "collagePosition":"right",
             "highlightColor":"#EC7D10",
+            "piecesFolder":"03",
             "collagePieces": [
                 {
-                    "name":"portada-bg-circle.png",
+                    "name":"03-astronaut.png",
                     "width":"100%",
                     "left":"",
                     "right":"",
@@ -152,7 +156,7 @@
                     "animation":""
                 },
                 {
-                    "name":"portada-bg-dashed-circle.png",
+                    "name":"03-astronaut.png",
                     "width":"50%",
                     "left":"",
                     "right":"",
@@ -162,7 +166,7 @@
                     "animation":""
                 },
                 {
-                    "name":"portada-bg-triangle.png",
+                    "name":"03-astronaut.png",
                     "width":"20%",
                     "left":"",
                     "right":"",
@@ -188,9 +192,10 @@
             "collage":"04",
             "collagePosition":"left",
             "highlightColor":"#FC2F00",
+            "piecesFolder":"04",
             "collagePieces": [
                 {
-                    "name":"portada-bg-circle.png",
+                    "name":"04-atari.png",
                     "width":"100%",
                     "left":"",
                     "right":"",
@@ -200,7 +205,7 @@
                     "animation":""
                 },
                 {
-                    "name":"portada-bg-dashed-circle.png",
+                    "name":"04-atari.png",
                     "width":"50%",
                     "left":"",
                     "right":"",
@@ -210,7 +215,7 @@
                     "animation":""
                 },
                 {
-                    "name":"portada-bg-triangle.png",
+                    "name":"04-atari.png",
                     "width":"20%",
                     "left":"",
                     "right":"",
@@ -233,12 +238,13 @@
         },
         {
             "decade":"1970",
-            "collage":"02",
+            "collage":"04",
             "collagePosition":"right",
             "highlightColor":"#EC0868",
+            "piecesFolder":"04",
             "collagePieces": [
                 {
-                    "name":"portada-bg-circle.png",
+                    "name":"04-atari.png",
                     "width":"100%",
                     "left":"",
                     "right":"",
@@ -248,7 +254,7 @@
                     "animation":""
                 },
                 {
-                    "name":"portada-bg-dashed-circle.png",
+                    "name":"04-atari.png",
                     "width":"50%",
                     "left":"",
                     "right":"",
@@ -258,7 +264,7 @@
                     "animation":""
                 },
                 {
-                    "name":"portada-bg-triangle.png",
+                    "name":"04-atari.png",
                     "width":"20%",
                     "left":"",
                     "right":"",
@@ -281,12 +287,13 @@
         },
         {
             "decade":"1980",
-            "collage":"02",
+            "collage":"04",
             "collagePosition":"left",
             "highlightColor":"#C200FB",
+            "piecesFolder":"04",
             "collagePieces": [
                 {
-                    "name":"portada-bg-circle.png",
+                    "name":"04-atari.png",
                     "width":"100%",
                     "left":"",
                     "right":"",
@@ -296,7 +303,7 @@
                     "animation":""
                 },
                 {
-                    "name":"portada-bg-dashed-circle.png",
+                    "name":"04-atari.png",
                     "width":"50%",
                     "left":"",
                     "right":"",
@@ -306,7 +313,7 @@
                     "animation":""
                 },
                 {
-                    "name":"portada-bg-triangle.png",
+                    "name":"04-atari.png",
                     "width":"20%",
                     "left":"",
                     "right":"",
@@ -329,12 +336,13 @@
         },
         {
             "decade":"1990",
-            "collage":"02",
+            "collage":"04",
             "collagePosition":"right",
             "highlightColor":"#061826",
+            "piecesFolder":"04",
             "collagePieces": [
                 {
-                    "name":"portada-bg-circle.png",
+                    "name":"04-atari.png",
                     "width":"100%",
                     "left":"",
                     "right":"",
@@ -344,7 +352,7 @@
                     "animation":""
                 },
                 {
-                    "name":"portada-bg-dashed-circle.png",
+                    "name":"04-atari.png",
                     "width":"50%",
                     "left":"",
                     "right":"",
@@ -354,7 +362,7 @@
                     "animation":""
                 },
                 {
-                    "name":"portada-bg-triangle.png",
+                    "name":"04-atari.png",
                     "width":"20%",
                     "left":"",
                     "right":"",

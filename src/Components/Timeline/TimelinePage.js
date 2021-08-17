@@ -50,7 +50,7 @@ const TimelinePage = (props) => {
             <TimelineConector></TimelineConector>
             <Grid>
                 <CollageSection collagePosition={props.content.collagePosition}>
-                        <CollageContainer collageContent={props.content.collagePieces}></CollageContainer>
+                        <CollageContainer piecesFolder={props.content.piecesFolder} collageContent={props.content.collagePieces}></CollageContainer>
                 </CollageSection>
                 <TextSection>
                     { props.content.texts.map( (content, key) => {
