@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from 'styled-components'
 import TimelinePageText from './TimelinePageText'
-import CollagesContainer from '../Collages/CollagesContainer'
 import Year from '../Timeline/Year'
+import CollageContainer from '../Collages/CollageContainer';
 
 const Wrapper = styled.div`
     width: 100%;
+    min-height: 100vh;
     max-width:${ props => props.theme.layout.l}px;
     margin:0 auto;
     
@@ -26,7 +27,7 @@ const Grid = styled.div`
 `;
 
 const TextSection = styled.div`
-    justify-content: right;
+    
 `;
 
 const CollageSection = styled.div`
@@ -42,18 +43,15 @@ const TimelineConector = styled.div `
 
 `
 
-
 const TimelinePage = (props) => {
     return (
         <Wrapper>
             <Year highlightColor={props.content.highlightColor} year={props.content.decade}></Year>
             <TimelineConector></TimelineConector>
-
             <Grid>
                 <CollageSection collagePosition={props.content.collagePosition}>
-                    <CollagesContainer collage={props.content.collage} />
+                        <CollageContainer collageContent={props.content.collagePieces}></CollageContainer>
                 </CollageSection>
-
                 <TextSection>
                     { props.content.texts.map( (content, key) => {
                         return(

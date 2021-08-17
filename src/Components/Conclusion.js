@@ -1,20 +1,18 @@
 import React from 'react';
+import styled from 'styled-components'
 
 const Wrapper = styled.div`
     width: 100%;
-    max-width:${ props => props.theme.layout.l}px;
-    margin:0 auto;
-    
-    @media (max-width : ${props => props.theme.layout.l}px){
-        overflow-x: hidden;
-    }
+    min-height: 100vh;
+    background: black;
+    color: white;
 `; 
 
 const Conclusion = () => {
     return (
-        <div>
-            
-        </div>
+        <Wrapper>
+            blablablabla aca va la conclusión
+        </Wrapper>
     );
 };
 

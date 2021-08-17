@@ -4,7 +4,7 @@ import Markdown from 'react-markdown'
 
 const Wrapper = styled.div `
     width:100%;
-    height:100vh;
+    min-height:100vh;
     max-width:${ props => props.theme.layout.l}px;
     margin:0 auto;
     

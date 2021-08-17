@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 const Wrapper = styled.div`
     width:100%;
+    min-height: 100vh;
     max-width:${ props => props.theme.layout.l}px;
     margin:0 auto;
     color: ${props => props.color}
@@ -53,21 +54,20 @@ const GraphicsSection = styled.div`
 
 const StatisticsPage = (props) => {
     const pageContent = props.content 
-    console.log (pageContent)
     return (
         <Wrapper color = {props.color}>
             <Layout>
-                    <IllustrationSection collagePosition={pageContent.illustrationPosition}>
-                        <Image src={require(`../../assets/img/statistics/${pageContent.illustration}.jpg`).default}></Image>
-                    </IllustrationSection>
-                    <Info>
-                        <SectionTitle color={props.color}>{pageContent.title}</SectionTitle>
-                        {pageContent.texts.map((text, key) => {
-                            return(
-                                <SectionTexts key={key}>{text}</SectionTexts>
-                            )
-                        } ) }
-                    </Info>
+                <IllustrationSection collagePosition={pageContent.illustrationPosition}>
+                    <Image src={require(`../../assets/img/statistics/${pageContent.illustration}.jpg`).default}></Image>
+                </IllustrationSection>
+                <Info>
+                    <SectionTitle color={props.color}>{pageContent.title}</SectionTitle>
+                    {pageContent.texts.map((text, key) => {
+                        return(
+                            <SectionTexts key={key}>{text}</SectionTexts>
+                        )
+                    } ) }
+                </Info>
             </Layout>
             <GraphicsSection>
 

@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components'
 import Markdown from 'react-markdown'
-
-import CollagesContainer from './Collages/CollagesContainer'
+import CollageContainer from './Collages/CollageContainer';
 
 const Wrapper = styled.div`
     width: 100%;
+    min-height: 100vh;
     max-width:${ props => props.theme.layout.l}px;
     margin:0 auto;
 `; 
@@ -51,7 +51,7 @@ const Cover = (props) => {
         <Wrapper>
             <Grid>
                 <CollageSection >
-                    <CollagesContainer collage={content.collage} />
+                    <CollageContainer collageContent={content.collagePieces}></CollageContainer>
                 </CollageSection>
                 <TitleSection>
                     <Title>{content.title}</Title>

@@ -3,7 +3,40 @@
         "title" : "La historia que no nos contaron: **la programación como testigo de una exclusión.**",
         "collage" : "portada",
         "collagePosition":"left",
-        "highlightColor":"blue"
+        "highlightColor":"blue",
+        "collagePieces": [
+            {
+                "name":"portada-bg-circle.png",
+                "width":"100%",
+                "left":"",
+                "right":"",
+                "top":"",
+                "bottom":"",
+                "z-index":"",
+                "animation":""
+            },
+            {
+                "name":"portada-bg-dashed-circle.png",
+                "width":"50%",
+                "left":"",
+                "right":"",
+                "top":"",
+                "bottom":"",
+                "z-index":"",
+                "animation":""
+            },
+            {
+                "name":"portada-bg-triangle.png",
+                "width":"20%",
+                "left":"",
+                "right":"",
+                "top":"",
+                "bottom":"",
+                "z-index":"",
+                "animation":""
+            }
+  
+        ]     
     },
     "timeline" : [
         {
@@ -11,6 +44,38 @@
             "collage":"01",
             "collagePosition":"right",
             "highlightColor":"#2BA84A",
+            "collagePieces": [
+                {
+                    "name":"portada-bg-circle.png",
+                    "width":"100%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"portada-bg-dashed-circle.png",
+                    "width":"50%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"portada-bg-triangle.png",
+                    "width":"20%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                }
+            ],
             "texts":[
                 {
                     "title": "NY Times: A computer wanted.",
@@ -27,6 +92,38 @@
             "collage":"02",
             "collagePosition":"left",
             "highlightColor":"#FFBC0A",
+            "collagePieces": [
+                {
+                    "name":"portada-bg-circle.png",
+                    "width":"100%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"portada-bg-dashed-circle.png",
+                    "width":"50%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"portada-bg-triangle.png",
+                    "width":"20%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                }
+            ],
             "texts":[
                 {
                     "title": "Primeras computadoras",
@@ -43,6 +140,38 @@
             "collage":"03",
             "collagePosition":"right",
             "highlightColor":"#EC7D10",
+            "collagePieces": [
+                {
+                    "name":"portada-bg-circle.png",
+                    "width":"100%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"portada-bg-dashed-circle.png",
+                    "width":"50%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"portada-bg-triangle.png",
+                    "width":"20%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                }
+            ],
             "texts":[
                 {
                     "title": "Know nothing about computers? Then we’ll teach you (and pay you while doing so).",
@@ -59,6 +188,38 @@
             "collage":"04",
             "collagePosition":"left",
             "highlightColor":"#FC2F00",
+            "collagePieces": [
+                {
+                    "name":"portada-bg-circle.png",
+                    "width":"100%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"portada-bg-dashed-circle.png",
+                    "width":"50%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"portada-bg-triangle.png",
+                    "width":"20%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                }
+            ],
             "texts":[
                 {
                     "title": "The Computer Girls",
@@ -75,6 +236,38 @@
             "collage":"02",
             "collagePosition":"right",
             "highlightColor":"#EC0868",
+            "collagePieces": [
+                {
+                    "name":"portada-bg-circle.png",
+                    "width":"100%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"portada-bg-dashed-circle.png",
+                    "width":"50%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"portada-bg-triangle.png",
+                    "width":"20%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                }
+            ],
             "texts":[
                 {
                     "title": "Profesionalización, exclusión y crisis",
@@ -91,6 +284,38 @@
             "collage":"02",
             "collagePosition":"left",
             "highlightColor":"#C200FB",
+            "collagePieces": [
+                {
+                    "name":"portada-bg-circle.png",
+                    "width":"100%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"portada-bg-dashed-circle.png",
+                    "width":"50%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"portada-bg-triangle.png",
+                    "width":"20%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                }
+            ],
             "texts":[
                 {
                     "title": "PCs para ellos, cocinitas para ellas.",
@@ -107,6 +332,38 @@
             "collage":"02",
             "collagePosition":"right",
             "highlightColor":"#061826",
+            "collagePieces": [
+                {
+                    "name":"portada-bg-circle.png",
+                    "width":"100%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"portada-bg-dashed-circle.png",
+                    "width":"50%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"portada-bg-triangle.png",
+                    "width":"20%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                }
+            ],
             "texts":[
                 {
                     "title": "Una carrera para gamers",
