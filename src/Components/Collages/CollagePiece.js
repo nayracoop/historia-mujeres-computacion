@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import styled from 'styled-components'
 
+/*styles*/ 
 const PieceContainer =  styled.div`
     position:absolute;
     width:${ props => props.width};
@@ -14,6 +15,9 @@ const PieceContainer =  styled.div`
     }
 `
 
+/*functions*/ 
+
+
 const CollagePiece = (props) => {
     return (
         <PieceContainer 
@@ -26,7 +30,6 @@ const CollagePiece = (props) => {
         </PieceContainer>
     );
 };
-
 
 
 export default CollagePiece;

@@ -27,7 +27,57 @@
                 "animation":""
             },
             {
+                "name":"portada-bg-grey-circle.png",
+                "width":"20%",
+                "left":"",
+                "right":"",
+                "top":"",
+                "bottom":"",
+                "z-index":"",
+                "animation":""
+            },
+            {
+                "name":"portada-bg-grey-triangle.png",
+                "width":"20%",
+                "left":"",
+                "right":"",
+                "top":"",
+                "bottom":"",
+                "z-index":"",
+                "animation":""
+            },
+            {
+                "name":"portada-bg-grid.png",
+                "width":"20%",
+                "left":"",
+                "right":"",
+                "top":"",
+                "bottom":"",
+                "z-index":"",
+                "animation":""
+            },
+            {
                 "name":"portada-bg-triangle.png",
+                "width":"20%",
+                "left":"",
+                "right":"",
+                "top":"",
+                "bottom":"",
+                "z-index":"",
+                "animation":""
+            },
+            {
+                "name":"portada-line.png",
+                "width":"7px",
+                "left":"",
+                "right":"",
+                "top":"",
+                "bottom":"",
+                "z-index":"",
+                "animation":""
+            },
+            {
+                "name":"portada.png",
                 "width":"20%",
                 "left":"",
                 "right":"",
@@ -58,7 +108,7 @@
                     "animation":""
                 },
                 {
-                    "name":"01-background.png",
+                    "name":"01-machine.png",
                     "width":"50%",
                     "left":"",
                     "right":"",
@@ -68,7 +118,17 @@
                     "animation":""
                 },
                 {
-                    "name":"01-background.png",
+                    "name":"01-tickets.png",
+                    "width":"20%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"01.png",
                     "width":"20%",
                     "left":"",
                     "right":"",
@@ -107,7 +167,7 @@
                     "animation":""
                 },
                 {
-                    "name":"02-background-dashed-circle.png",
+                    "name":"02-background-shapes.png",
                     "width":"50%",
                     "left":"",
                     "right":"",
@@ -117,7 +177,27 @@
                     "animation":""
                 },
                 {
-                    "name":"02-background-dashed-circle.png",
+                    "name":"02-background.png",
+                    "width":"20%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"02-people.png",
+                    "width":"20%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"02.png",
                     "width":"20%",
                     "left":"",
                     "right":"",
@@ -156,7 +236,7 @@
                     "animation":""
                 },
                 {
-                    "name":"03-astronaut.png",
+                    "name":"03-bg-circle.png",
                     "width":"50%",
                     "left":"",
                     "right":"",
@@ -166,7 +246,37 @@
                     "animation":""
                 },
                 {
-                    "name":"03-astronaut.png",
+                    "name":"03-bg-shapes.png",
+                    "width":"20%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"03-computer.png",
+                    "width":"100%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"03-moon.png",
+                    "width":"50%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"03.png",
                     "width":"20%",
                     "left":"",
                     "right":"",
@@ -205,7 +315,7 @@
                     "animation":""
                 },
                 {
-                    "name":"04-atari.png",
+                    "name":"04-bg-.png",
                     "width":"50%",
                     "left":"",
                     "right":"",
@@ -215,7 +325,47 @@
                     "animation":""
                 },
                 {
-                    "name":"04-atari.png",
+                    "name":"04-bg-shape.png",
+                    "width":"20%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"04-bg-square.png",
+                    "width":"100%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"04-computer_.png",
+                    "width":"50%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"04-game.png",
+                    "width":"20%",
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"",
+                    "z-index":"",
+                    "animation":""
+                },
+                {
+                    "name":"04.png",
                     "width":"20%",
                     "left":"",
                     "right":"",
