@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
 import Markdown from 'react-markdown'
-import CollageContainer from './Collages/CollageContainer';
+import CollageContainer from './collages/CollageContainer';
 
 const Wrapper = styled.div`
     width: 100%;

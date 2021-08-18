@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 import styled, { ThemeProvider } from 'styled-components'
 
-import Cover from '../Components/Cover'
-import TimelineContainer from '../Components/Timeline/TimelineContainer'
-import StatisticsContainer from '../Components/Statistics/StatisticsContainer'
-import Conclusion from '../Components/Conclusion';
+import Cover from '../components/Cover'
+import TimelineContainer from '../components/timeline/TimelineContainer'
+import StatisticsContainer from '../components/statistics/StatisticsContainer'
+import Conclusion from '../components/Conclusion';
 
 import content from '../assets/data/content.json'
 import background from '../assets/img/background.jpg';

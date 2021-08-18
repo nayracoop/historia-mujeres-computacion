@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components'
 import TimelinePageText from './TimelinePageText'
-import Year from '../Timeline/Year'
-import CollageContainer from '../Collages/CollageContainer';
+import Year from '../timeline/Year'
+import CollageContainer from '../collages/CollageContainer';
 
 const Wrapper = styled.div`
     width: 100%;
