@@ -9,20 +9,15 @@ const Wrapper = styled.div`
 
 const CollageContainer = (props) => {
     const CollageContent = props.collageContent
-    const PiecesFolder=props.piecesFolder
+    
     return (
         <Wrapper> 
             {CollageContent.map( (piece, key) =>{                       
                 return(
                     <CollagePiece
                         key={key}
-                        className={piece.name}
-                        pieceSrc={require(`../../assets/img/collages/${PiecesFolder}/${piece.name}`).default}
-                        width = {piece.width}
-                        left={piece.left}
-                        right={piece.right}
-                        top={piece.top}
-                        bottom={piece.bottom}
+                        pieceData={piece}
+                        pieceFolder={props.piecesFolder}
                 ></CollagePiece>
                 )
             } )}                

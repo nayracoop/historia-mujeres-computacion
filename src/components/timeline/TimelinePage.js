@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components'
+
 import TimelinePageText from './TimelinePageText'
 import Year from '../timeline/Year'
 import CollageContainer from '../collages/CollageContainer';
+
 
 const Wrapper = styled.div`
     width: 100%;
@@ -50,7 +52,10 @@ const TimelinePage = (props) => {
             <TimelineConector></TimelineConector>
             <Grid>
                 <CollageSection collagePosition={props.content.collagePosition}>
-                        <CollageContainer piecesFolder={props.content.piecesFolder} collageContent={props.content.collagePieces}></CollageContainer>
+                        <CollageContainer 
+                            piecesFolder={props.content.piecesFolder} 
+                            collageContent={props.content.collagePieces}>
+                        </CollageContainer>
                 </CollageSection>
                 <TextSection>
                     { props.content.texts.map( (content, key) => {

@@ -10,7 +10,6 @@ import content from '../assets/data/content.json'
 import background from '../assets/img/background.jpg';
 
 
-
 const Theme = {
     fonts : {
         display:"Source Code Pro",
@@ -46,7 +45,6 @@ const App = () => {
   const [coverContent] = useState(content.cover)
   const [timelineParts] = useState(content.timeline)
   const [statisticsParts] = useState(content.statistics)
-
 
   return (
     <div className="App">

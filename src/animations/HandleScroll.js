@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 const isWindowAvailable = typeof window !== "undefined"
 
-const getPosition = () => isWindowAvailable ? window.pageYOffset : undefined
+const getPosition = () => isWindowAvailable ? window.pageYOffset : ""
 
 const WindowScrollPosition = () =>{
    

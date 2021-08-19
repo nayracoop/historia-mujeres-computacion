@@ -13,7 +13,6 @@ const Wrapper =styled.div`
 const StatisticsContainer = (props) => {
     const coverContent= props.content.cover
     const pagesContent = props.content.parts
-    console.log(props.content.color)
     return (
         <Wrapper>
             <StatisticsCover color = {props.content.color} coverContent={coverContent}></StatisticsCover>

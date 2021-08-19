@@ -17,13 +17,13 @@ const Wrapper = styled.div`
 ` 
 
 const TimelineContainer = (props) => {
-
     return (
         <Wrapper>
             <BackgroundImage src={require('../../assets/img/math-background.png').default}></BackgroundImage>
             { props.content.map( (pageContent, key) => {
                 return(
                     <TimelinePage
+                        scrollPosition={props.scrollPosition}
                         key={key}
                         content={pageContent}>
                     </TimelinePage>
