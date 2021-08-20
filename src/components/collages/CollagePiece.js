@@ -11,8 +11,17 @@ const PieceContainer =  styled.div`
     right:${ props => props.right !== 0 ?  - props.width: ""}%;
     top:${ props => props.top ? props.top : ""}px;
     bottom:${ props => props.bottom ? props.bottom :""}px;
+
+    z-index: ${ props => props.zindex ? props.zindex :""};
+    opacity: ${ props => props.opacity ? props.opacity :""};
+
     transform:${props => props.animate ? 'translateX(' + props.width + '%)' : ""};
     transition: transform ease-in-out 1s;
+    
+    &:hover{
+        transform:${props => `translateX(${props.width-5}%)`};
+    }
+    
     img{
         width:100%;
     }
@@ -52,6 +61,8 @@ const CollagePiece = (props) => {
             right={piece.right}
             top={piece.top}
             bottom={piece.bottom}
+            zindex={piece.zindex}
+            opacity={piece.opacity}
             animate={isOnScreen}>
                 
             <img 

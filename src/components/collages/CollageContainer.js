@@ -5,6 +5,7 @@ import CollagePiece from './CollagePiece'
 const Wrapper = styled.div`
     width:100%;
     height:100%;
+    padding-top:10%;
 `
 
 const CollageContainer = (props) => {
@@ -17,8 +18,8 @@ const CollageContainer = (props) => {
                     <CollagePiece
                         key={key}
                         pieceData={piece}
-                        pieceFolder={props.piecesFolder}
-                ></CollagePiece>
+                        pieceFolder={props.piecesFolder}>
+                    </CollagePiece>
                 )
             } )}                
         </Wrapper>
