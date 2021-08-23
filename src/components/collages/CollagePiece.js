@@ -11,15 +11,17 @@ const PieceContainer =  styled.div`
     right:${ props => props.right !== 0 ?  - props.width: ""}%;
     top:${ props => props.top ? props.top : ""}px;
     bottom:${ props => props.bottom ? props.bottom :""}px;
+    filter: drop-shadow(0px 2px 3px #848484);
 
     z-index: ${ props => props.zindex ? props.zindex :""};
     opacity: ${ props => props.opacity ? props.opacity :""};
+    mix-blend-mode: ${ props => props.blendmode ? props.blendmode :""};
 
     transform:${props => props.animate ? 'translateX(' + props.width + '%)' : ""};
     transition: transform ease-in-out 1s;
     
     &:hover{
-        transform:${props => `translateX(${props.width-5}%)`};
+
     }
     
     img{
@@ -40,7 +42,7 @@ const CollagePiece = (props) => {
     const HandlePiecePosition = () => {
         const piecePosition = pieceRef.current.getBoundingClientRect().top;
         const containerHeight = window.innerHeight
-        const onScreenLimit = containerHeight/2
+        const onScreenLimit = containerHeight/3
 
         if(piecePosition < containerHeight - onScreenLimit){
             setIsOnScreen(true)
@@ -63,11 +65,9 @@ const CollagePiece = (props) => {
             bottom={piece.bottom}
             zindex={piece.zindex}
             opacity={piece.opacity}
+            blendmode={piece.blendmode}
             animate={isOnScreen}>
-                
-            <img 
-                src={require(`../../assets/img/collages/${props.pieceFolder}/${piece.name}`).default}
-            ></img>
+            <img  alt=""  src={require(`../../assets/img/collages/${props.pieceFolder}/${piece.name}`).default}></img>
         </PieceContainer>
     );
 };
