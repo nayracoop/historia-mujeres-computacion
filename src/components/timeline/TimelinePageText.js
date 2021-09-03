@@ -7,6 +7,7 @@ const TextContainer = styled.div`
     margin-bottom: 10%;
     padding-top: 30px;
     padding-bottom: 30px;   
+
     
     margin-left: ${props => props.collagePosition === "left" ? "-2px":"" };
     border-left: ${props => props.collagePosition === "left" ? `6px solid ${props.highlightColor}` :"" };

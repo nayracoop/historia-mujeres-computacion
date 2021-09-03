@@ -45,6 +45,7 @@ const App = () => {
   const [coverContent] = useState(content.cover)
   const [timelineParts] = useState(content.timeline)
   const [statisticsParts] = useState(content.statistics)
+  const [conclusion] = useState(content.reflexion)
 
   return (
     <div className="App">
@@ -53,7 +54,7 @@ const App = () => {
         <Cover content = {coverContent} ></Cover>
         <TimelineContainer content = {timelineParts}></TimelineContainer>
         <StatisticsContainer content = {statisticsParts}></StatisticsContainer>
-        <Conclusion></Conclusion>
+        <Conclusion content={conclusion}></Conclusion>
       </ThemeProvider>
     </div>
   );
