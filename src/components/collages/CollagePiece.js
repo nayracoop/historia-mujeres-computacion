@@ -18,18 +18,21 @@ const PieceContainer =  styled.div`
     opacity: ${ props => props.opacity ? props.opacity :""};
     mix-blend-mode: ${ props => props.blendmode ? props.blendmode :""};
 
+    transformStyle: preserve-3d;
+    perspective: 500px;
+
     img{
         width:100%;
-        transform:${props => props.animate ? 'translateX(' + props.width + '%)' : ""};
+        transform:${props => props.animate ? 'translateX(' + props.width + '%)' : ""} translateZ(${props => props.perspective ? props.perspective : ""}px);
         transition: transform ease-in-out 1s;
     }
 `
 /*functions*/ 
 
-
 const CollagePiece = (props) => {
     //enter animation functions
     const piece = props.pieceData
+    const pieceTranslation = props.pieceTranslation
     const pieceRef = useRef(null)
     const [isOnScreen, setIsOnScreen] = useState(false)
     
@@ -52,32 +55,32 @@ const CollagePiece = (props) => {
     //Constant Animation Functions
         
     HandleScroll()
+
     const getKeyframes = () => {
         return [
-            { transform: 'scale(1)',    opacity: 1,     offset: 0 },
-            { transform: 'scale(.5)',   opacity: 0.5,   offset: 0.3 },
-            { transform: 'scale(.667)', opacity: 0.667, offset: 0.7875 },
-            { transform: 'scale(.6)',   opacity: 0.6,   offset: 1 }
+            { transform: `translateY(${pieceTranslation[0]}px) rotateY(${pieceTranslation[0]}deg)`,offset: 0 },
+            { transform: `translateY(${pieceTranslation[1]}px) rotateY(${pieceTranslation[1]}deg)`, offset: 0.3 },
+            { transform: `translateY(${pieceTranslation[2]}px) rotateY(${pieceTranslation[2]}deg)`, offset: 0.7875 },
+            { transform: `translateY(${pieceTranslation[3]}px) rotateY(${pieceTranslation[3]}deg)`, offset: 1 }
         ];
     }
 
-    const getTiming =( duration ) => {
+    const getTiming =( duration) => {
         return {
             duration,
             easing: 'ease-in-out',
             delay: 0,
-            iterations: 2,
+            iterations: 10000,
             direction: 'alternate',
             fill: 'forwards'
         };
     }
 
-
     return (
         <div ref={pieceRef} >
             <Animation 
                 keyframes={getKeyframes()}
-                timing={getTiming(2500)}>
+                timing={getTiming(4500)}>
                     <PieceContainer
                         width={piece.width}
                         left={piece.left}
@@ -87,6 +90,7 @@ const CollagePiece = (props) => {
                         zindex={piece.zindex}
                         opacity={piece.opacity}
                         blendmode={piece.blendmode}
+                        perspective={piece.perspective}
                         animate={isOnScreen}>
                             
                         <img  alt=""  src={require(`../../assets/img/collages/${props.pieceFolder}/${piece.name}`).default}></img>
