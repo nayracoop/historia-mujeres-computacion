@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useRef, useState, useLayoutEffect}from 'react';
 import styled from 'styled-components'
+import HandleScroll from '../../animations/HandleScroll'
 import ReactMarkdown from 'react-markdown'
 
 
@@ -60,22 +61,38 @@ const Text = styled(ReactMarkdown)`
         background: linear-gradient(to right, ${props => props.highlightColor + 'CC' }, ${props => props.highlightColor + '73'});
         background-repeat: no-repeat;
         transition: all ease-in-out .5s;   
-        background-position:-1100px; 
+        background-position: ${props => props.animate ? "0px" : "-1100px"}; 
 
-        &:hover{
-            background-position: 0px;   
-        }
     }
     `
 
 const TimelinePageText = (props) => {
+    HandleScroll()
 
+    const positionRef = useRef(null)
+    const [isOnScreen, setIsOnScreen] = useState(false)
+    
+    const HandleTextPosition = () => {    
+        const position = positionRef.current.getBoundingClientRect().top;
+        const containerHeight = window.innerHeight
+        const onScreenLimit = containerHeight/3
 
+        if(position < containerHeight - onScreenLimit){
+            setIsOnScreen(true)
+        } else {
+            setIsOnScreen(false) 
+        }
+
+    }
+    
+    useLayoutEffect(()=>{
+        HandleTextPosition()
+    })
 
     return (
-        <TextContainer collagePosition={props.collagePosition} highlightColor={props.highlightColor}>
+        <TextContainer ref={positionRef} collagePosition={props.collagePosition} highlightColor={props.highlightColor}>
                 <Title children={props.title} highlightColor={props.highlightColor} ></Title>
-                <Text children={props.text} highlightColor={props.highlightColor} ></Text>
+                <Text animate={isOnScreen} children={props.text} highlightColor={props.highlightColor} ></Text>
         </TextContainer>
     );
 };

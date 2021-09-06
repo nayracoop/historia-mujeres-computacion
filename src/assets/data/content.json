@@ -146,7 +146,7 @@
                     "bottom":-100,
                     "opacity":1,
                     "zindex":"4",
-                    "blendmode":"",
+                    "blendmode":"multiply",
                     "animation":""
                 },
                 {
