@@ -33,7 +33,7 @@ const CollageSection = styled.div`
 
 const Title = styled(Markdown)`
     font-family:${props => props.theme.fonts.display};
-    line-height: 1.8em;
+    line-height: 3em;
     font-size: 1.7em;
     display: inline;
 

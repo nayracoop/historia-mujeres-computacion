@@ -12,12 +12,10 @@ const PieceContainer =  styled.div`
     right:${ props => props.right !== 0 ?  - props.width: ""}%;
     top:${ props => props.top ? props.top : ""}px;
     bottom:${ props => props.bottom ? props.bottom :""}px;
-    filter: drop-shadow(0px 2px 3px #848484);
-
+    filter: drop-shadow(0px 2px 2px #848484);
     z-index: ${ props => props.zindex ? props.zindex :""};
     opacity: ${ props => props.opacity ? props.opacity :""};
     mix-blend-mode: ${ props => props.blendmode ? props.blendmode :""};
-
     transformStyle: preserve-3d;
     perspective: 500px;
 
@@ -41,7 +39,7 @@ const CollagePiece = (props) => {
         const containerHeight = window.innerHeight
         const onScreenLimit = containerHeight/3
 
-        if(piecePosition < containerHeight - onScreenLimit){
+        if ( piecePosition < containerHeight - onScreenLimit ) {
             setIsOnScreen(true)
         } else {
             setIsOnScreen(false) 
@@ -53,15 +51,14 @@ const CollagePiece = (props) => {
     })
 
     //Constant Animation Functions
-        
     HandleScroll()
 
     const getKeyframes = () => {
         return [
-            { transform: `translateY(${pieceTranslation[0]}px) rotateY(${pieceTranslation[0]}deg)`,offset: 0 },
-            { transform: `translateY(${pieceTranslation[1]}px) rotateY(${pieceTranslation[1]}deg)`, offset: 0.3 },
-            { transform: `translateY(${pieceTranslation[2]}px) rotateY(${pieceTranslation[2]}deg)`, offset: 0.7875 },
-            { transform: `translateY(${pieceTranslation[3]}px) rotateY(${pieceTranslation[3]}deg)`, offset: 1 }
+            { transform: `translateY(${pieceTranslation[0]}px)`,offset: 0 },
+            { transform: `translateY(${pieceTranslation[1]}px)`, offset: 0.3 },
+            { transform: `translateY(${pieceTranslation[2]}px)`, offset: 0.7875 },
+            { transform: `translateY(${pieceTranslation[3]}px)`, offset: 1 }
         ];
     }
 
@@ -91,8 +88,7 @@ const CollagePiece = (props) => {
                         opacity={piece.opacity}
                         blendmode={piece.blendmode}
                         perspective={piece.perspective}
-                        animate={isOnScreen}>
-                            
+                        animate={isOnScreen}> 
                         <img  alt=""  src={require(`../../assets/img/collages/${props.pieceFolder}/${piece.name}`).default}></img>
                     </PieceContainer>
             </Animation>

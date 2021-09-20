@@ -40,11 +40,18 @@ const Image = styled.img`
     margin: 0 auto;
 `
 const SectionTitle= styled.h2`
-    color:  ${props => props.color};
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 2em;
+    background-color:  ${props => props.color};
+    color: #e9e9e9;
+
 `
 
 const SectionTexts= styled.p`
     color:  ${props => props.color};
+    font-size: 1.2em;
+    line-height:1.6em;
 `
 
 const GraphicsSection = styled.div`

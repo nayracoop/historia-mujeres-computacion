@@ -51,8 +51,7 @@ const App = () => {
     <div className="App">
       <ThemeProvider  theme={Theme}>
         <Background></Background>
-        <Cover content = {coverContent} ></Cover>
-        <TimelineContainer content = {timelineParts}></TimelineContainer>
+        <TimelineContainer coverContent = {coverContent} content = {timelineParts}></TimelineContainer>
         <StatisticsContainer content = {statisticsParts}></StatisticsContainer>
         <Conclusion content={conclusion}></Conclusion>
       </ThemeProvider>

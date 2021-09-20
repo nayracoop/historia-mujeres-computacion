@@ -8,12 +8,10 @@ const TextContainer = styled.div`
     margin-bottom: 10%;
     padding-top: 30px;
     padding-bottom: 30px;   
-
-    
+  
     margin-left: ${props => props.collagePosition === "left" ? "-2px":"" };
-    border-left: ${props => props.collagePosition === "left" ? `6px solid ${props.highlightColor}` :"" };
+    border-left: ${props => props.collagePosition === "left" ? `6px solid ${props.highlightColor}` : "" };
     padding-left: ${props => props.collagePosition === "left" ? "50px":"" };
-
     margin-right: ${props => props.collagePosition === "right" ? "-2px":"" };
     border-right: ${props => props.collagePosition === "right" ? `6px solid ${props.highlightColor}` :"" };
     padding-right: ${props => props.collagePosition === "right" ? "50px":"" };
@@ -32,20 +30,25 @@ const TextContainer = styled.div`
 `
 
 const Title = styled(ReactMarkdown)`
+    display: inline-block;
+    margin-bottom: 2em;
+
     h1{
+        display: inline;
+        padding: 0 10px;
         margin-top:0;
         margin-bottom:1em;
         font-family: ${props => props.theme.fonts.display};
-        color: ${props => props.highlightColor};
+        line-height: 1.5em;
+        color: #f9f9f9;
+        background-color: ${props => props.highlightColor};
         font-size:2.8em;
     }
-
 `
 
 const Text = styled(ReactMarkdown)`
     padding:20px;
     padding-left:30px;
-    //background-image: url(${require('../../assets/img/paper-background.jpg').default}) ;
     background-color: #F1F1F1;
     background-size:100%;
     box-shadow: 1px 1px 7px 5px rgba(0, 0, 0, 0.2);
@@ -62,7 +65,6 @@ const Text = styled(ReactMarkdown)`
         background-repeat: no-repeat;
         transition: all ease-in-out .5s;   
         background-position: ${props => props.animate ? "0px" : "-1100px"}; 
-
     }
     `
 
