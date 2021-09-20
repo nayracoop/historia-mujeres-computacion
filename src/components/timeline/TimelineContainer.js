@@ -14,8 +14,6 @@ const BackgroundImage = styled.div`
     width:100%;
     filter: invert(75%);
     z-index:-1;
-    opacity:.5;
-    transform:translateZ(-400px);
 `
 
 const Wrapper = styled.div`
@@ -41,7 +39,7 @@ const TimelineContainer = (props) => {
     const getKeyframes = () => {
         if (scrollPosition > 0 ) {
             return [
-                { transform: `translateY(${backgroundTranslation}px)`,offset: 0 },
+                { transform: `translateY(${backgroundTranslation}px)`,offset: 0.5},
             ];
         } else {
             return [

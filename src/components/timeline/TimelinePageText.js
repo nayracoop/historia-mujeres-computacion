@@ -43,6 +43,7 @@ const Title = styled(ReactMarkdown)`
         color: #f9f9f9;
         background-color: ${props => props.highlightColor};
         font-size:2.8em;
+        border-radius:10px;
     }
 `
 
@@ -84,7 +85,6 @@ const TimelinePageText = (props) => {
         } else {
             setIsOnScreen(false) 
         }
-
     }
     
     useLayoutEffect(()=>{

@@ -1,13 +1,12 @@
 import React, {useState} from 'react';
 import styled, { ThemeProvider } from 'styled-components'
 
-import Cover from '../components/Cover'
 import TimelineContainer from '../components/timeline/TimelineContainer'
 import StatisticsContainer from '../components/statistics/StatisticsContainer'
 import Conclusion from '../components/Conclusion';
 
 import content from '../assets/data/content.json'
-import background from '../assets/img/background.jpg';
+//import background from '../assets/img/background.jpg';
 
 
 const Theme = {
@@ -33,7 +32,7 @@ const Background = styled.div`
   left:0;
   width:100%;
   height:100%;
-  background-image:url(${background});
+  background-color: #333333;
   background-size:cover;
   z-index:-2;
  
