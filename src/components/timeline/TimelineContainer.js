@@ -12,7 +12,7 @@ const BackgroundImage = styled.div`
     height:100%;
     position:absolute;
     width:100%;
-    filter: invert(75%);
+    filter: invert(40%);
     z-index:-1;
 `
 

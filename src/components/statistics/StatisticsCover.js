@@ -44,8 +44,8 @@ const Title = styled(Markdown)`
         p{
             font-size: 2.3em;
             border-radius: 10px;
-            color: ${props => props.color};   
             text-align: left;
+            color: #e4e2e1; 
 
             strong{
                 font-size: 2em;
@@ -54,8 +54,7 @@ const Title = styled(Markdown)`
                 display: inline-block;
                 padding: 20px 50px;
                 border-radius: 10px;
-                background-color: ${props => props.color};   
-                color: #e4e2e1; 
+                
             }
         }
     }

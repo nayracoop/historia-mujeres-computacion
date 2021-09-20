@@ -10,22 +10,11 @@ const TextContainer = styled.div`
     padding-bottom: 30px;   
   
     margin-left: ${props => props.collagePosition === "left" ? "-2px":"" };
-    border-left: ${props => props.collagePosition === "left" ? `6px solid ${props.highlightColor}` : "" };
+    border-left: ${props => props.collagePosition === "left" ? `3px solid #a463d6` : "" };
     padding-left: ${props => props.collagePosition === "left" ? "50px":"" };
     margin-right: ${props => props.collagePosition === "right" ? "-2px":"" };
-    border-right: ${props => props.collagePosition === "right" ? `6px solid ${props.highlightColor}` :"" };
+    border-right: ${props => props.collagePosition === "right" ? `3px solid #a463d6` :"" };
     padding-right: ${props => props.collagePosition === "right" ? "50px":"" };
-
-    &::before, &::after{
-        content:"";
-        display:block;
-        position: relative;
-        left:${props => props.collagePosition === "left" ? "-56px":"" };
-        right:${props => props.collagePosition === "right" ? "-108.5%":"" };
-        width:6px;
-        background: ${props => props.theme.colors.text};
-        height:20px;
-    }
 
 `
 
@@ -33,36 +22,59 @@ const Title = styled(ReactMarkdown)`
     display: inline-block;
     margin-bottom: 2em;
 
+    h2{
+        display: inline;
+        padding: 0 10px;
+        margin-top:0;
+        font-weight:400;
+        margin-bottom:1em;
+        font-family: ${props => props.theme.fonts.display};
+        line-height: 1.5em;
+        color: #f7f3ad;
+        font-size:2.8em;
+        border-radius:10px;
+
+        &::after{
+            content:"()";
+            color:#f7f3ad;
+        }
+    }
+
     h1{
         display: inline;
         padding: 0 10px;
         margin-top:0;
+        font-weight:400;
         margin-bottom:1em;
         font-family: ${props => props.theme.fonts.display};
         line-height: 1.5em;
-        color: #f9f9f9;
-        background-color: ${props => props.highlightColor};
+        color: #4ec9b0;
         font-size:2.8em;
         border-radius:10px;
+
+        &::before{
+            content:"//";
+            color:#4ec9b0;
+        }
     }
 `
 
 const Text = styled(ReactMarkdown)`
     padding:20px;
     padding-left:30px;
-    background-color: #F1F1F1;
+    background-color: #1e1e1e;
     background-size:100%;
     box-shadow: 1px 1px 7px 5px rgba(0, 0, 0, 0.2);
     margin-bottom:50px;
 
     color: ${props => props.theme.colors.text};
-    font-size:1.2em;
-    line-height:1.5em;
+    font-size:1.3em;
+    line-height:1.8em;
 
     strong {
         display: inline;
         padding: 0 5px;
-        background: linear-gradient(to right, ${props => props.highlightColor + 'CC' }, ${props => props.highlightColor + '73'});
+        background: linear-gradient(to right, #68cdfe50, #68cdfe60);
         background-repeat: no-repeat;
         transition: all ease-in-out .5s;   
         background-position: ${props => props.animate ? "0px" : "-1100px"}; 

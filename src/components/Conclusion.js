@@ -7,6 +7,8 @@ const Wrapper = styled.div`
     min-height: 100vh;
 
     p{
+        color:#FFFFFF;
+        font-size: 2em;
         padding-top: 50px;
         width:90%;
         margin: 0 auto;

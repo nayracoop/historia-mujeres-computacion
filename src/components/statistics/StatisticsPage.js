@@ -39,19 +39,19 @@ const Image = styled.img`
     width: 100%;
     margin: 0 auto;
 `
+
 const SectionTitle= styled.h2`
     padding: 5px 10px;
     border-radius: 10px;
-    font-size: 2em;
-    background-color:  ${props => props.color};
-    color: #e9e9e9;
-
+    font-size: 3em;
+    color:#FFFFFF;
+ 
 `
 
 const SectionTexts= styled.p`
-    color:  ${props => props.color};
-    font-size: 1.2em;
-    line-height:1.6em;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    line-height:1.8em;
 `
 
 const GraphicsSection = styled.div`

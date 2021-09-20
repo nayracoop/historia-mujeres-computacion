@@ -6,7 +6,6 @@ import StatisticsContainer from '../components/statistics/StatisticsContainer'
 import Conclusion from '../components/Conclusion';
 
 import content from '../assets/data/content.json'
-//import background from '../assets/img/background.jpg';
 
 
 const Theme = {
@@ -15,7 +14,7 @@ const Theme = {
         text:"Open Sans"
     },
     colors:{
-        text:"#111111",
+        text:"#f1f1f1",
     },
     layout:{
         xs:"",
