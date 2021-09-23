@@ -30,7 +30,8 @@ const CollageContainer = (props) => {
                         pieceTranslation={setPieceAnimation()}
                         key={key}
                         pieceData={piece}
-                        pieceFolder={props.piecesFolder}>
+                        pieceFolder={props.piecesFolder}
+                        collagePosition={props.collagePosition}>
                     </CollagePiece>
                 )
             } )}                

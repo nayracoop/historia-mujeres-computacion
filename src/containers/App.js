@@ -34,9 +34,7 @@ const Background = styled.div`
   background-color: #333333;
   background-size:cover;
   z-index:-2;
- 
 `
-
 
 const App = () => {
 

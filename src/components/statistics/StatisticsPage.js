@@ -16,6 +16,7 @@ const Wrapper = styled.div`
 const Layout = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    min-height:90vh;
 
     @media (max-width : ${props => props.theme.layout.m}px){
         width:90%;
@@ -42,9 +43,9 @@ const Image = styled.img`
 `
 
 const SectionTitle= styled.h2`
-    border-radius: 10px;
     font-size: 3em;
     color:#f7f3ad;
+    margin-bottom:70px;
 
     &::after{
         content: "()";
@@ -54,28 +55,75 @@ const SectionTitle= styled.h2`
 `
 
 const SectionTexts= styled(Markdown)`
-    color: #FFFFFF;
+    color: #ea7550;
     font-size: 1.3em;
     line-height:1.8em;
     margin-left:70px;
+    width:90%;
 
     &::before, ::after{
         content:"{";
+        display:block;
         color: #a463d6;
         margin-left:-70px;
-        font-size: 3em;
+        margin-bottom:-70px;
+        font-size: 4em;
     }
 
     &::after{
         content:"}";
+        display:block;
         color: #a463d6;
-        margin-right:100px;
-        font-size: 3em;
+        margin-left:100%;
+        font-size: 4em;
+        margin-top:-70px;
+        margin-bottom:70px;
     }
+
 `
 
 const GraphicsSection = styled.div`
-    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+`
+
+const GraphicWrapper = styled.div`
+    margin:30px;
+    margin-top:70px;
+
+    h3{
+        display:block;
+        height:120px;
+        color:#f7f3ad;
+        font-weight:600;
+        font-size:1.5em;
+    }
+
+    img{
+        width:100%;
+    }
+
+    img.feedback{
+        max-height:160px;
+        width:auto;
+        opacity:.6;
+    }
+`
+const Notes = styled(Markdown)`
+    p{
+        color:#0db474;
+        font-size: 1.2em;
+        
+        strong{
+            display:block;
+            font-size:5em;
+        }
+    }
+`
+const Extra = styled.div`
+    color: #FFFFFF;
+    opacity:.6;
+    line-height:1.5em;
 `
 
 
@@ -92,7 +140,27 @@ const StatisticsPage = (props) => {
                     <SectionTexts>{pageContent.texts}</SectionTexts>
                 </Info>
             </Layout>
-            <GraphicsSection> </GraphicsSection>
+            <GraphicsSection>  
+                
+                {pageContent.graphics ? pageContent.graphics.map((graphic, key) => {
+                    return(
+                        pageContent.illustration === "desigualdad" ?
+                        <GraphicWrapper>
+                            <img key={key} src={require(`../../assets/img/statistics/${graphic.graphic}`).default}></img>
+                            <Notes>{graphic.description}</Notes>
+                        </GraphicWrapper>
+                        :
+                        <GraphicWrapper>     
+                            <h3>{graphic.title}</h3>
+                            <img className="feedback" key={key} src={require(`../../assets/img/statistics/${graphic.graphic}`).default}></img>
+                            <Notes>{graphic.description}</Notes>
+                            <Extra>{graphic.notes.map((note, key) => {
+                                return <p key={key}>{note}</p>
+                            })}</Extra>
+                    </GraphicWrapper>
+                    )
+                }) : ""}
+            </GraphicsSection>
         </Wrapper>
     );
 };

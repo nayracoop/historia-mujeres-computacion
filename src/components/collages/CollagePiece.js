@@ -8,9 +8,9 @@ import { Animation } from 'react-web-animation' ;
 const PieceContainer =  styled.div`
     position:absolute;
     width:${ props => props.width}%;
-    left:${ props => props.left !== 0 ? - props.width : "" }%;
-    right:${ props => props.right !== 0 ?  - props.width: ""}%;
-    top:${ props => props.top ? props.top : ""}px;
+    left:${ props => props.collagePosition === "left" ? - (props.left+800) : "" }px;
+    right:${ props => props.collagePosition === "right" ?  - (props.right+800) : ""}px;
+    top:${ props => props.top ? props.top : ""}px; 
     bottom:${ props => props.bottom ? props.bottom :""}px;
     filter: drop-shadow(0px 2px 2px #848484);
     z-index: ${ props => props.zindex ? props.zindex :""};
@@ -21,8 +21,10 @@ const PieceContainer =  styled.div`
 
     img{
         width:100%;
-        transform:${props => props.animate ? 'translateX(' + props.width + '%)' : ""} translateZ(${props => props.perspective ? props.perspective : ""}px);
-        transition: transform ease-in-out 1s;
+        ${props => props.animate && props.collagePosition === "left" ? `transform:translateX(${props.left+700}px)` : "" };
+        ${props => props.animate && props.collagePosition === "right" ? `transform:translateX(${props.right-700}px)` : "" };
+        transition: transform ease-in-out 1s ;
+        transition-delay: 250ms;
     }
 `
 /*functions*/ 
@@ -79,6 +81,7 @@ const CollagePiece = (props) => {
                 keyframes={getKeyframes()}
                 timing={getTiming(4500)}>
                     <PieceContainer
+                        collagePosition={props.collagePosition}
                         width={piece.width}
                         left={piece.left}
                         right={piece.right}

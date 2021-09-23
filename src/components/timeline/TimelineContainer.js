@@ -14,6 +14,7 @@ const BackgroundImage = styled.div`
     filter: invert(40%);
     z-index:-1;
     background-size: 100%;
+    opacity:.7;
 `
 
 const Wrapper = styled.div`

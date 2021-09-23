@@ -51,7 +51,11 @@ const Cover = (props) => {
         <Wrapper>
             <Grid>
                 <CollageSection >
-                    <CollageContainer piecesFolder={content.piecesFolder}collageContent={content.collagePieces}></CollageContainer>
+                    <CollageContainer 
+                        piecesFolder={content.piecesFolder}
+                        collageContent={content.collagePieces}
+                        collagePosition={props.content.collagePosition}>
+                    </CollageContainer>
                 </CollageSection>
                 <TitleSection>
                     <Title>{content.title}</Title>

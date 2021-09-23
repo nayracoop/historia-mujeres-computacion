@@ -8,7 +8,6 @@ const YearContainer =  styled.div`
     border-radius: 30px;
     text-align: center;
 
-    
     &&::before , ::after{
         content: " ( ";
         display: inline-block;

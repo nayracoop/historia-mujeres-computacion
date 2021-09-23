@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import styled from 'styled-components'
 
 import TimelinePageText from './TimelinePageText'
@@ -54,7 +54,8 @@ const TimelinePage = (props) => {
                 <CollageSection collagePosition={props.content.collagePosition}>
                         <CollageContainer 
                             piecesFolder={props.content.piecesFolder} 
-                            collageContent={props.content.collagePieces}>
+                            collageContent={props.content.collagePieces}
+                            collagePosition={props.content.collagePosition}>
                         </CollageContainer>
                 </CollageSection>
                 <TextSection>

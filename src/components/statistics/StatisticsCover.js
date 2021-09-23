@@ -40,6 +40,7 @@ const Subtitle = styled.h2`
 
     &::before, ::after{
         content:"{";
+        font-size: 1.5em;
         display:inline-block;
         color: #a463d6;
         margin-right:10px;

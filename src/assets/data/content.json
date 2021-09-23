@@ -842,66 +842,110 @@
         },
         "parts" : [
             {
-                "title" : "Los_estereotipos ",
+                "title" : "estereotipos ",
                 "illustration": "partida",
                 "illustrationPosition":"left",
-                "texts" : "En el mejor de los casos, las publicidades colocan a mujeres sólo en el rol de usuarias de tecnología -y de cierta tecnología-.\n\rLa crianza sesgada por la diferenciación de géneros delimita la creencia sobre nuestras propias capacidades.\n\r La historia hegemónica no narra la historia de las mujeres y disiencias, sus aportes y participaciones.",
-                "graphics" : [
-                    {
-                        "description" : "",
-                        "graphic" : ""
-                    },
-                    {
-                        "description" : "",
-                        "graphic" : ""
-                    }
-                ]
+                "texts" : "En el mejor de los casos, las publicidades colocan a mujeres sólo en el rol de usuarias de tecnología -y de cierta tecnología-.\n\rLa crianza sesgada por la diferenciación de géneros delimita la creencia sobre nuestras propias capacidades.\n\r La historia hegemónica no narra la historia de las mujeres y disiencias, sus aportes y participaciones."
             },
             {
-                "title" : "La_educación",
+                "title" : "educación",
                 "illustration": "desigualdad",
                 "illustrationPosition":"right",
                 "texts" : "La diferenciación en base al género de nuestra socialización primaria, condiciona los rumbos y elecciones de lxs adolescentes respecto a los estudios terciarios y universitarios." ,
                 "graphics" : [
                     {
-                        "description" : "",
-                        "graphic" : ""
+                        "description" : "Información demográfica de la encuesta",
+                        "graphic" : "demografia.png"
                     },
                     {
-                        "description" : "",
-                        "graphic" : ""
+                        "description" : "Histórico de participación en la encuesta",
+                        "graphic" : "participacion.png"
+                    },
+                    {
+                        "description" : "Nuevas inscripciones en carreras de programación por género. Datos entre 2010 y 2015",
+                        "graphic" : "carreras.png"
+                    },
+                    {
+                        "description" : "Nuevas inscripciones en carreras de programación por género",
+                        "graphic" : "genero_carreras.png"
+                    },
+                    {
+                        "description" : "Distribución de inscripciones por género",
+                        "graphic" : "inscripciones_genero.png"
+                    },
+                    {
+                        "description" : "Universidades con mayor cantidad de inscripciones",
+                        "graphic" : "universidades.png"
                     }
                 ]
             },
             {
-                "title" : "La_búsqueda_de_trabajo",
+                "title" : "búsqueda_laboral",
                 "illustration": "oportunidades",
                 "illustrationPosition":"left",
-                "texts" : "Búsquedas laborales que desincentivan a las mujeres y disidencias a presentarse como candidatxs a los trabajos de tecnología (se pide más de lo que realmente se busca, y quienes desean postularse no se sienten motivadxs a hacerlo a menos que cumplan el 100% de los requisitos).",
-                "graphics" : [
-                    {
-                        "description" : "",
-                        "graphic" : ""
-                    },
-                    {
-                        "description" : "",
-                        "graphic" : ""
-                    }
-                ]
+                "texts" : "Búsquedas laborales que desincentivan a las mujeres y disidencias a presentarse como candidatxs a los trabajos de tecnología (se pide más de lo que realmente se busca, y quienes desean postularse no se sienten motivadxs a hacerlo a menos que cumplan el 100% de los requisitos)."
             },
             {
-                "title" : "La_experiencia en_la_industria",
+                "title" : "experiencia en_la_industria",
                 "illustration": "feedback",
                 "illustrationPosition":"right",
-                "texts" : "Las mujeres y disidencias encuentran muchas dificultades al momento de conservar el trabajo y también de disfrutarlo debido a diversos patrones que continuan excluyendoles:\n\rla desvalorización de su trabajo\n\rel acoso sexual\n\rfeedback enfocado en la personalidad y no en el trabajo realizado\n\rla diferencia en la asignación de ascensos por género –que a veces se suma a la especulación sobre la maternidad–;\n\rla brecha salarial\n\rla presión por tener que “demostrar” tener aptitudes para cargos jerárquicos\n\rmicromachismos cotidianos como mansplaining y manterrupting",
+                "texts" : "Las mujeres y disidencias encuentran muchas dificultades al momento de conservar el trabajo y también de disfrutarlo debido a diversos patrones que continuan excluyendoles:",
                 "graphics" : [
                     {
-                        "description" : "",
-                        "graphic" : ""
+                        "title": "Feedback enfocado en la personalidad y no en el trabajo realizado",
+                        "description" : "**84%** han recibido comentarios sobre ser demasiado agresivas (a más de la mitad en múltiples ocasiones)",
+                        "notes":[
+                            "Es difícil para las mujeres en tecnología lograr el equilibrio correcto sin ser consideradas demasiado dóciles o demasiado duras."
+
+                        ], 
+                        "graphic" : "hard-soft.png"
                     },
                     {
-                        "description" : "",
-                        "graphic" : ""
+                        "title": "La presión por tener que “demostrar” tener aptitudes para cargos jerárquicos",
+                        "description" : "**66%** se sintieron excluidas de espacios clave y oportunidades por su género",
+                        "notes":[
+                            "El 59% ha sentido que no ha tenido las mismas oportunidades que sus colegas masculinos.", 
+                            "El 90% fue testigo de un comportamiento sexista en las instalaciones de la empresa y / o en conferencias de la industria.)"
+                        ], 
+                        "graphic" : "excluded.png"
+                    },
+                    {
+                        "title": "Micromachismos cotidianos",
+                        "description" : "**88%** han experimentado situaciones en las que las preguntas que podrían haber sido dirigidas a ellas fueron realizadas a sus pares masculinos",
+                        "notes":[
+                            "84% percibieron que se hacía contacto visual con sus colegas masculinos y no con ellas", 
+                            "87% han recibido comentarios degradantes de colegas masculinos", 
+                            "al 47% Se le pidió que hiciera tareas de nivel inferior que a los colegas masculinos no se les pidieron."
+                        ], 
+                        "graphic" : "sesgos-inconscientes.png"
+                    },
+                    {
+                        "title": "La especulación sobre la maternidad",
+                        "description" : "**75%** fueron indagadas sobre su vida en familia, estado civil e hijos",
+                        "notes":[
+                            "el 40% sintió la necesidad de hablar menos de su familia para ser tomadas más en serio", 
+                            " De las que tomaron la licencia por maternidad, el 52% acortó su licencia porque pensó que afectaría negativamente a su carrera."
+                        ], 
+                        "graphic" : "impacto-familia.png"
+                    },
+                    {
+                        "title": "Acoso sexual",
+                        "description" : "**60%** han reportado avances sexuales no deseados",
+                        "notes":[
+                            "65% de las mujeres que informan avances sexuales no deseados habían recibido avances de un superior, y la mitad recibió avances más de una vez.", 
+                            "1 de cada 3 ha sentido miedo por su seguridad personal debido a circunstancias relacionadas con el trabajo"
+                        ], 
+                        "graphic" : "acoso-sexual.png"
+                    },
+                    {
+                        "title": "",
+                        "description" : "**60%** de las que denunciaron acoso sexual no estaban satisfechas con el curso de acción",
+                        "notes":[
+                            "39% de las acosados ​​no hicieron nada porque pensaron que afectaría negativamente su carrera", 
+                            "30% no lo reportaron porque sólo querían olvidarlo", 
+                            "29% firmó un acuerdo de no descrédito de sus superiores o empresas"
+                        ], 
+                        "graphic" : "resolucion.png"
                     }
                 ]
             }
