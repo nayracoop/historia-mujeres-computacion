@@ -14,7 +14,7 @@ const PieceContainer =  styled.div`
     bottom:${ props => props.bottom ? props.bottom :""}%;
     filter: drop-shadow(0px 2px 2px #848484);
     z-index: ${ props => props.zindex ? props.zindex :""};
-    opacity: ${ props => props.opacity ? props.opacity :""};
+    opacity: ${props =>  props.opacity };
     mix-blend-mode: ${ props => props.blendmode ? props.blendmode :""};
     transformStyle: preserve-3d;
     perspective: 500px;

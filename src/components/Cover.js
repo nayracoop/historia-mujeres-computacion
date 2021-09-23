@@ -29,6 +29,8 @@ const TitleSection = styled.div`
 
 const CollageSection = styled.div`
     position:relative;
+    width:120%;
+    left:-150px;
 `;
 
 const Title = styled.h1`
