@@ -8,10 +8,10 @@ import { Animation } from 'react-web-animation' ;
 const PieceContainer =  styled.div`
     position:absolute;
     width:${ props => props.width}%;
-    left:${ props => props.collagePosition === "left" ? - (props.left+800) : "" }px;
-    right:${ props => props.collagePosition === "right" ?  - (props.right+800) : ""}px;
-    top:${ props => props.top ? props.top : ""}px; 
-    bottom:${ props => props.bottom ? props.bottom :""}px;
+    left:${ props => props.collagePosition === "left" ?  (-100) : "" }px;
+    right:${ props => props.collagePosition === "right" ?  (-100) : ""}px;
+    top:${ props => props.top ? props.top : ""}%; 
+    bottom:${ props => props.bottom ? props.bottom :""}%;
     filter: drop-shadow(0px 2px 2px #848484);
     z-index: ${ props => props.zindex ? props.zindex :""};
     opacity: ${ props => props.opacity ? props.opacity :""};
@@ -19,13 +19,14 @@ const PieceContainer =  styled.div`
     transformStyle: preserve-3d;
     perspective: 500px;
 
+
     img{
         width:100%;
-        ${props => props.animate && props.collagePosition === "left" ? `transform:translateX(${props.left+700}px)` : "" };
-        ${props => props.animate && props.collagePosition === "right" ? `transform:translateX(${props.right-700}px)` : "" };
+        ${props => props.animate && props.collagePosition === "left" ? `transform:translateX(${props.left}px)` : "" };
+        ${props => props.animate && props.collagePosition === "right" ? `transform:translateX(${props.right}px)` : "" };
         transition: transform ease-in-out 1s ;
-        transition-delay: 250ms;
     }
+
 `
 /*functions*/ 
 
@@ -57,7 +58,7 @@ const CollagePiece = (props) => {
 
     const getKeyframes = () => {
         return [
-            { transform: `translateY(${pieceTranslation[0]}px)`,offset: 0 },
+            { transform: `translateY(${pieceTranslation[0]}px)`, offset: 0},
             { transform: `translateY(${pieceTranslation[1]}px)`, offset: 0.3 },
             { transform: `translateY(${pieceTranslation[2]}px)`, offset: 0.7875 },
             { transform: `translateY(${pieceTranslation[3]}px)`, offset: 1 }

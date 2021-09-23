@@ -31,18 +31,32 @@ const CollageSection = styled.div`
     position:relative;
 `;
 
-const Title = styled(Markdown)`
+const Title = styled.h1`
     font-family:${props => props.theme.fonts.display};
-    line-height: 3em;
-    font-size: 1.7em;
-    display: inline;
+    line-height: 1em;
+    font-size: 2.2em;
+    color: #f7f3ad;
 
-    strong{
-        padding: 0.2em;
-        box-shadow: 0.2em 0 0 rgba(#fff,0.7), -0.2em 0 0 rgba(#fff,0.7);
-        background-color: #fff;
-        background-color: rgba(#fff,0.7);
-    }
+`
+const Subtitle = styled.h2`
+font-size: 3.3em;
+line-height:1.2em;
+margin-top: 20px;
+display:block;
+color:#68cdfe;
+
+&::before, ::after{
+    content:"{";
+    font-size: 1.5em;
+    display:inline-block;
+    color: #a463d6;
+    margin-right:10px;
+}
+
+&::after{
+    content: "}";
+    margin-left:10px;
+}
 `
 
 const Cover = (props) => {
@@ -59,6 +73,7 @@ const Cover = (props) => {
                 </CollageSection>
                 <TitleSection>
                     <Title>{content.title}</Title>
+                    <Subtitle>{content.subtitle}</Subtitle>
                 </TitleSection>
             </Grid>
         </Wrapper>
