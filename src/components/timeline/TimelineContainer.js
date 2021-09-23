@@ -11,9 +11,9 @@ const BackgroundImage = styled.div`
     width:100%;
     height:100%;
     position:absolute;
-    width:100%;
     filter: invert(40%);
     z-index:-1;
+    background-size: 100%;
 `
 
 const Wrapper = styled.div`
@@ -60,10 +60,6 @@ const TimelineContainer = (props) => {
     }
 
     useLayoutEffect ( () => {
-        console.log(backgroundTranslation)
-        console.log(scrollPosition)
-        console.log(HandleBackgroundPosition())
-        console.log("--")
         setBackgroundTranslation(scrollPosition + HandleBackgroundPosition()*0.5)
     })
 

@@ -7,7 +7,7 @@ import StatisticsPage from './StatisticsPage'
 const Wrapper =styled.div`
     width:100%;
     background-color: #1b1d1e;
-    min-height:100%;
+    padding-bottom: 100px;
 `
 
 const StatisticsContainer = (props) => {

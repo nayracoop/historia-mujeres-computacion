@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
-import Markdown from 'react-markdown'
+
 
 const Wrapper = styled.div `
     width:100%;
@@ -13,64 +13,62 @@ const Wrapper = styled.div `
     }
 `
 
-const Layout = styled.div`
-    height:100%;
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-
-    @media (max-width : ${props => props.theme.layout.m}px){
-        width:90%;
-        margin:0 auto;
-    }
-`;
-
-
 const TitleSection = styled.div`
-    text-align: center;
-    self-align:bottom;
     z-index: 999;
+    padding-top:25%;
+    margin-top:100px;
 `;
 
-const CollageSection = styled.div`
-    
-`;
-
-const Title = styled(Markdown)`
+const Title = styled.h1`
     font-family:${props => props.theme.fonts.display};
-    line-height: 1.8em;
-    font-weight:500;
-    display: inline; 
+    font-size: 3em;
+    text-align: left;
+    color: #f7f3ad; 
 
-        p{
-            font-size: 2.3em;
-            border-radius: 10px;
-            text-align: left;
-            color: #e4e2e1; 
-
-            strong{
-                font-size: 2em;
-                line-height:1em;
-                margin-top: 20px;
-                display: inline-block;
-                padding: 20px 50px;
-                border-radius: 10px;
-                
-            }
-        }
+    &::after{
+        content:"()";
+        margin-left:5px;
     }
 `
 
+const Subtitle = styled.h2`
+    font-size: 5em;
+    line-height:1em;
+    margin-top: 20px;
+    display:block;
+    color:#68cdfe;
+
+    &::before, ::after{
+        content:"{";
+        display:inline-block;
+        color: #a463d6;
+        margin-right:10px;
+    }
+
+    &::after{
+        content: "}";
+        margin-left:10px;
+    }
+`
+
+const Note = styled.p`
+    color: #0db474;
+    font-size:2em;
+
+    &::before{
+        content:"//";
+    }
+`
 
 
 const StatisticsCover = (props) => {
     return (
         <Wrapper>
-           <Layout>
-           <CollageSection></CollageSection>
-                <TitleSection>
-                    <Title color= {props.color}>{props.coverContent.title}</Title>
-                </TitleSection>
-           </Layout>
+            <TitleSection>
+                <Title >{props.coverContent.title}</Title>
+                <Subtitle>{props.coverContent.subtitle}</Subtitle>
+                <Note>{props.coverContent.note}</Note>
+            </TitleSection>
         </Wrapper>
     );
 };

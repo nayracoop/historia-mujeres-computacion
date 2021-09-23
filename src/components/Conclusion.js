@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
+import Markdown from 'react-markdown'
+import ReactMarkdown from 'react-markdown';
 
 const Wrapper = styled.div`
     padding-top:100px;
@@ -18,11 +20,7 @@ const Wrapper = styled.div`
 const Conclusion = (props) => {
     return (
         <Wrapper>
-            {props.content.paragraphs.map((paragraph, key) => {
-                return (
-                    <p key={key}>{paragraph}</p>
-                )
-            })}
+            <ReactMarkdown>{props.content.paragraphs}</ReactMarkdown>
         </Wrapper>
     );
 };

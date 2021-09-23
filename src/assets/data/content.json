@@ -274,6 +274,90 @@
             "collage":"03",
             "collagePosition":"right",
             "highlightColor":"#EC7D10",
+            "piecesFolder":"05",
+            "collagePieces": [
+                {
+                    "name":"05-bg-circle.png",
+                    "width":50,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                },
+                {
+                    "name":"05-bg-rect.png",
+                    "width":50,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                },
+                {
+                    "name":"05-bg-shapes.png",
+                    "width":20,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                },
+                {
+                    "name":"05-computer.png",
+                    "width":100,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                },
+                {
+                    "name":"05.png",
+                    "width":50,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                }
+            ],
+            "texts":[
+                {
+                    "title": "# Know nothing about computers? Then we’ll teach you (and pay you while doing so).",
+                    "text": "**Las empresas empleaban personas sin experiencia en programación, proveyéndoles capacitación y formación**. Con pruebas de ingreso aseguraban requisitos mínimos de conocimiento en lógica y matemática. **La escasa profesionalización del área la hacía inclusiva y abierta para las personas sin conocimientos específicos**. Muchas mujeres se iniciaron de esta manera."
+                },
+                {
+                    "title": "## Grace_Hopper",
+                    "text": "Matemática, **formó parte del equipo que desarrolló la primera computadora para propósitos generales (UNIVAC I)**. Además, propuso el desarrollo de un lenguaje de programación que pudiera ser escrito en lenguaje coloquial en lugar de símbolos. Sus ideas fueron rechazadas por años. Finamente, desarrolló para este propósito un compilador y el lenguaje FLOW-MATIC (más tarde COBOL)."
+                }
+            ]
+        },
+        {
+            "decade":"1960",
+            "collage":"04",
+            "collagePosition":"left",
+            "highlightColor":"#FC2F00",
             "piecesFolder":"03",
             "collagePieces": [
                 {
@@ -357,20 +441,195 @@
             ],
             "texts":[
                 {
-                    "title": "# Know nothing about computers? Then we’ll teach you (and pay you while doing so).",
-                    "text": "**Las empresas empleaban personas sin experiencia en programación, proveyéndoles capacitación y formación**. Con pruebas de ingreso aseguraban requisitos mínimos de conocimiento en lógica y matemática. **La escasa profesionalización del área la hacía inclusiva y abierta para las personas sin conocimientos específicos**. Muchas mujeres se iniciaron de esta manera."
+                    "title": "# The Computer Girls",
+                    "text": "Crece la demanda de programadorxs porque las empresas comienzan un proceso de automatización de la información. **Este rubro es uno de los pocos bien pagos que no está vedado para las mujeres**. Su participación está en 30%-50%, aunque siempre lejos de los puestos altos, cobrando menos que sus colegas hombres y sufriendo la doble carga laboral cuando son madres."
                 },
                 {
-                    "title": "## Grace_Hopper",
-                    "text": "Matemática, **formó parte del equipo que desarrolló la primera computadora para propósitos generales (UNIVAC I)**. Además, propuso el desarrollo de un lenguaje de programación que pudiera ser escrito en lenguaje coloquial en lugar de símbolos. Sus ideas fueron rechazadas por años. Finamente, desarrolló para este propósito un compilador y el lenguaje FLOW-MATIC (más tarde COBOL)."
+                    "title": "## Algunas_pioneras",
+                    "text": "**Margaret Hamilton** lideró el equipo del MIT que diseñó el software para las misiones Apollo y Skylab. **Mary Kenneth Keller** fue la primera mujer en tener un doctorado en Ciencias de la Computación y contribuyó al desarrollo de BASIC. **Barbara Liskov** lideró el diseño e implementación de CLU que, al organizar el código en módulos, fue de los primeros en focalizarse en las nociones de programación modular, abstracción y polimorfismo, conceptos fundacionales de la Programación Orientada a Objetos."
                 }
             ]
         },
         {
-            "decade":"1960",
+            "decade":"1970",
+            "collage":"04",
+            "collagePosition":"right",
+            "highlightColor":"#EC0868",
+            "piecesFolder":"06",
+            "collagePieces": [
+                {
+                    "name":"06-bg-circle.png",
+                    "width":100,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                },
+                {
+                    "name":"06-bg-rect.png",
+                    "width":50,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                },
+                {
+                    "name":"06-bg-rect.png",
+                    "width":20,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                },
+                {
+                    "name":"06-bg-shape.png",
+                    "width":20,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                },
+                {
+                    "name":"06-magazine-1.png",
+                    "width":20,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                },
+                {
+                    "name":"06-magazine-2.png",
+                    "width":20,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                },
+                {
+                    "name":"06-magazine-3.png",
+                    "width":20,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                },
+                {
+                    "name":"06-magazine-4.png",
+                    "width":20,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                },
+                {
+                    "name":"06-magazine-5.png",
+                    "width":20,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                },
+                {
+                    "name":"06-magazine-6.png",
+                    "width":20,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                },
+                {
+                    "name":"06-magazine-7.png",
+                    "width":20,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                },
+                {
+                    "name":"06-magazine-8.png",
+                    "width":20,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                }
+            ],
+            "texts":[
+                {
+                    "title": "# Profesionalización, exclusión y crisis",
+                    "text": "Hace unos años había comenzado la profesionalización de la programación a través de la ingeniería de software. **Se sistematizan los conocimientos a través de carreras y certificaciones, y los trabajos empiezan a excluir a personas sin estudios formales en el área**. Se desencadena una crisis en la industria del software: proyectos con bugs, no entregados a tiempo, de baja calidad, que no cumplen los requerimientos."
+                },
+                {
+                    "title": "## Los_estereotipos pisan_fuerte",
+                    "text": "A medida que la disciplina se desarrolla y los trabajos de directivos y ejecutivos en la industria crecen, **se enraizan los estereotipos del programador**. Los psicólogos y entrevistadores de la época **los caracterizaban como hombres, antisociales, introvertidos y solitarios**."
+                }
+            ]
+        },
+        {
+            "decade":"1980",
             "collage":"04",
             "collagePosition":"left",
-            "highlightColor":"#FC2F00",
+            "highlightColor":"#C200FB",
             "piecesFolder":"04",
             "collagePieces": [
                 {
@@ -467,122 +726,6 @@
             ],
             "texts":[
                 {
-                    "title": "# The Computer Girls",
-                    "text": "Crece la demanda de programadorxs porque las empresas comienzan un proceso de automatización de la información. **Este rubro es uno de los pocos bien pagos que no está vedado para las mujeres**. Su participación está en 30%-50%, aunque siempre lejos de los puestos altos, cobrando menos que sus colegas hombres y sufriendo la doble carga laboral cuando son madres."
-                },
-                {
-                    "title": "## Algunas_pioneras",
-                    "text": "**Margaret Hamilton** lideró el equipo del MIT que diseñó el software para las misiones Apollo y Skylab. **Mary Kenneth Keller** fue la primera mujer en tener un doctorado en Ciencias de la Computación y contribuyó al desarrollo de BASIC. **Barbara Liskov** lideró el diseño e implementación de CLU que, al organizar el código en módulos, fue de los primeros en focalizarse en las nociones de programación modular, abstracción y polimorfismo, conceptos fundacionales de la Programación Orientada a Objetos."
-                }
-            ]
-        },
-        {
-            "decade":"1970",
-            "collage":"04",
-            "collagePosition":"right",
-            "highlightColor":"#EC0868",
-            "piecesFolder":"04",
-            "collagePieces": [
-                {
-                    "name":"04-atari.png",
-                    "width":100,
-                    "left":100,
-                    "right":0,
-                    "top":0,
-                    "bottom":0,
-                    "opacity":1,
-                    "zindex":"",
-                    "blendmode":"",
-                    "perspective":"30",
-                    "animation":""
-                },
-                {
-                    "name":"04-atari.png",
-                    "width":50,
-                    "left":100,
-                    "right":0,
-                    "top":0,
-                    "bottom":0,
-                    "opacity":1,
-                    "zindex":"",
-                    "blendmode":"",
-                    "perspective":"30",
-                    "animation":""
-                },
-                {
-                    "name":"04-atari.png",
-                    "width":20,
-                    "left":100,
-                    "right":0,
-                    "top":0,
-                    "bottom":0,
-                    "opacity":1,
-                    "zindex":"",
-                    "blendmode":"",
-                    "perspective":"30",
-                    "animation":""
-                }
-            ],
-            "texts":[
-                {
-                    "title": "# Profesionalización, exclusión y crisis",
-                    "text": "Hace unos años había comenzado la profesionalización de la programación a través de la ingeniería de software. **Se sistematizan los conocimientos a través de carreras y certificaciones, y los trabajos empiezan a excluir a personas sin estudios formales en el área**. Se desencadena una crisis en la industria del software: proyectos con bugs, no entregados a tiempo, de baja calidad, que no cumplen los requerimientos."
-                },
-                {
-                    "title": "## Los_estereotipos_pisan_fuerte",
-                    "text": "A medida que la disciplina se desarrolla y los trabajos de directivos y ejecutivos en la industria crecen, **se enraizan los estereotipos del programador**. Los psicólogos y entrevistadores de la época **los caracterizaban como hombres, antisociales, introvertidos y solitarios**."
-                }
-            ]
-        },
-        {
-            "decade":"1980",
-            "collage":"04",
-            "collagePosition":"left",
-            "highlightColor":"#C200FB",
-            "piecesFolder":"04",
-            "collagePieces": [
-                {
-                    "name":"04-atari.png",
-                    "width":100,
-                    "left":100,
-                    "right":0,
-                    "top":0,
-                    "bottom":0,
-                    "opacity":1,
-                    "zindex":"",
-                    "blendmode":"",
-                    "perspective":"30",
-                    "animation":""
-                },
-                {
-                    "name":"04-atari.png",
-                    "width":50,
-                    "left":100,
-                    "right":0,
-                    "top":0,
-                    "bottom":0,
-                    "opacity":1,
-                    "zindex":"",
-                    "blendmode":"",
-                    "perspective":"30",
-                    "animation":""
-                },
-                {
-                    "name":"04-atari.png",
-                    "width":20,
-                    "left":100,
-                    "right":0,
-                    "top":0,
-                    "bottom":0,
-                    "opacity":1,
-                    "zindex":"",
-                    "blendmode":"",
-                    "perspective":"30",
-                    "animation":""
-                }
-            ],
-            "texts":[
-                {
                     "title": "# PCs para ellos, cocinitas para ellas.",
                     "text": "Las casas que tenían una computadora personal solían colocarla en las habitaciones de los hombres. La industria de los videojuegos era destinada especialmente a varones, **reforzando el estereotipo que venían instalando las películas sobre los programadores como hombres**."
                 },
@@ -597,10 +740,10 @@
             "collage":"04",
             "collagePosition":"right",
             "highlightColor":"#061826",
-            "piecesFolder":"04",
+            "piecesFolder":"07",
             "collagePieces": [
                 {
-                    "name":"04-atari.png",
+                    "name":"07-bg-circle.png",
                     "width":100,
                     "left":100,
                     "right":0,
@@ -613,7 +756,7 @@
                     "animation":""
                 },
                 {
-                    "name":"04-atari.png",
+                    "name":"07-bg-orange.png",
                     "width":50,
                     "left":100,
                     "right":0,
@@ -626,7 +769,46 @@
                     "animation":""
                 },
                 {
-                    "name":"04-atari.png",
+                    "name":"07-bg-purple.png",
+                    "width":20,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                },
+                {
+                    "name":"07-bg-shapes.png",
+                    "width":20,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                },
+                {
+                    "name":"07-bg-yellow.png",
+                    "width":20,
+                    "left":100,
+                    "right":0,
+                    "top":0,
+                    "bottom":0,
+                    "opacity":1,
+                    "zindex":"",
+                    "blendmode":"",
+                    "perspective":"30",
+                    "animation":""
+                },
+                {
+                    "name":"07-computadora.png",
                     "width":20,
                     "left":100,
                     "right":0,
@@ -645,7 +827,7 @@
                     "text": "En los cursos iniciales de las carreras de computación **la presencia de varones continuó siendo mayoritaria**. Las mujeres se sentían desmotivadas por su falta de experiencia previa en comparación con los varones. La formación de “clubs” y comportamientos tribales reforzó la masculinización del ambiente y la explusión de las mujeres."
                 },
                 {
-                    "title": "## Por_una_universidad_más_inclusiva",
+                    "title": "## Por_una_universidad más_inclusiva",
                     "text": "**Hubo quienes lucharon contra esta exclusión, enfocándose en nivelar los conocimientos de las personas en el primer año de la universidad**, agrupándolxs de acuerdo a los conocimientos previos. Su propósito era mejorar el ambiente de aprendizaje, y permitir que aquellas personas que no habían tenido la posibilidad de acercarse previamente a la programación no se vean frustradas al momento de comenzar sus estudios."
                 }
             ]
@@ -654,19 +836,16 @@
     "statistics" : {
         "color" : "#061826",
         "cover" :{
-            "title": "Nuestro presente: **un mar de consencuencias**",
-            "collage":""
+            "title": "Nuestro_presente",
+            "subtitle":"un mar de consencuencias",
+            "note":"datos tomados de la encuesta realizada por sysarmy en 2020, elephantinthevalley.com y mujeresprogramadoras.com.ar "
         },
         "parts" : [
             {
-                "title" : "Los estereotipos ",
+                "title" : "Los_estereotipos ",
                 "illustration": "partida",
                 "illustrationPosition":"left",
-                "texts" : [
-                    "En el mejor de los casos, las publicidades colocan a mujeres sólo en el rol de usuarias de tecnología -y de cierta tecnología-." , 
-                    "La crianza sesgada por la diferenciación de géneros delimita la creencia sobre nuestras propias capacidades.", 
-                    "La historia hegemónica no narra la historia de las mujeres y disiencias, sus aportes y participaciones."                   
-                ],
+                "texts" : "En el mejor de los casos, las publicidades colocan a mujeres sólo en el rol de usuarias de tecnología -y de cierta tecnología-.\n\rLa crianza sesgada por la diferenciación de géneros delimita la creencia sobre nuestras propias capacidades.\n\r La historia hegemónica no narra la historia de las mujeres y disiencias, sus aportes y participaciones.",
                 "graphics" : [
                     {
                         "description" : "",
@@ -679,12 +858,10 @@
                 ]
             },
             {
-                "title" : "La educación",
+                "title" : "La_educación",
                 "illustration": "desigualdad",
                 "illustrationPosition":"right",
-                "texts" : [
-                    "La diferenciación en base al género de nuestra socialización primaria, condiciona los rumbos y elecciones de lxs adolescentes respecto a los estudios terciarios y universitarios."                    
-                ],
+                "texts" : "La diferenciación en base al género de nuestra socialización primaria, condiciona los rumbos y elecciones de lxs adolescentes respecto a los estudios terciarios y universitarios." ,
                 "graphics" : [
                     {
                         "description" : "",
@@ -697,12 +874,10 @@
                 ]
             },
             {
-                "title" : "La búsqueda de trabajo",
+                "title" : "La_búsqueda_de_trabajo",
                 "illustration": "oportunidades",
                 "illustrationPosition":"left",
-                "texts" : [
-                    "Búsquedas laborales que desincentivan a las mujeres y disidencias a presentarse como candidatxs a los trabajos de tecnología (se pide más de lo que realmente se busca, y quienes deean postularse no se sienten motivadxs a hacerlo a menos que cumplan el 100% de los requisitos)."                    
-                ],
+                "texts" : "Búsquedas laborales que desincentivan a las mujeres y disidencias a presentarse como candidatxs a los trabajos de tecnología (se pide más de lo que realmente se busca, y quienes desean postularse no se sienten motivadxs a hacerlo a menos que cumplan el 100% de los requisitos).",
                 "graphics" : [
                     {
                         "description" : "",
@@ -715,19 +890,10 @@
                 ]
             },
             {
-                "title" : "La experiencia en la industria",
+                "title" : "La_experiencia en_la_industria",
                 "illustration": "feedback",
                 "illustrationPosition":"right",
-                "texts" : [
-                    "Las mujeres y disidencias encuentran muchas dificultades al momento de conservar el trabajo y también de disfrutarlo debido a diversos patrones que continuan excluyendoles:",
-                    "la desvalorización de su trabajo", 
-                    "el acoso sexual", 
-                    "feedback enfocado en la personalidad y no en el trabajo realizado", 
-                    "la diferencia en la asignación de ascensos por género –que a veces se suma a la especulación sobre la maternidad–;", 
-                    "la brecha salarial", 
-                    "la presión por tener que “demostrar” tener aptitudes para cargos jerárquicos", 
-                    "micromachismos cotidianos como mansplaining y manterrupting"                   
-                ],
+                "texts" : "Las mujeres y disidencias encuentran muchas dificultades al momento de conservar el trabajo y también de disfrutarlo debido a diversos patrones que continuan excluyendoles:\n\rla desvalorización de su trabajo\n\rel acoso sexual\n\rfeedback enfocado en la personalidad y no en el trabajo realizado\n\rla diferencia en la asignación de ascensos por género –que a veces se suma a la especulación sobre la maternidad–;\n\rla brecha salarial\n\rla presión por tener que “demostrar” tener aptitudes para cargos jerárquicos\n\rmicromachismos cotidianos como mansplaining y manterrupting",
                 "graphics" : [
                     {
                         "description" : "",
@@ -743,26 +909,6 @@
     }, 
     "reflexion" : {
         "title" : "", 
-        "paragraphs" : [
-            "La desigualdad estructural presente en la sociedad ha condicionado la historia del desarrollo de la computación desde sus inicios, así como lo que conocemos de ella.",
-
-            "Recuperamos algunos de los hilos perdidos de la historia que nos contaron. Aquellos que traen relatos sobre referentes mujeres y disidencias que han bogado por el trabajo colaborativo, la importancia del desarrollo enfocado en las personas usuarias y consciente del impacto social que producen.",
-            
-            "Urge preguntarnos: Quiénes producen la tecnología que utilizamos?",
-            
-            "En Argentina hacia los años 70 las mujeres conformaron el 75% de les estudiantes en las carreras de informática. Sin embargo, en 2013 la proporción se redujo hasta un 18%.",
-            
-            "Continúan activos procesos de segregación horizontales <pisos pegajosos> y verticales <techos de cristal>.",
-            
-            "La búsqueda de profesionalización del área que excluye a quienes no pueden acceder a una educación formal, la socialización primaria y las publicidades minadas de sesgos y estereotipos binarios y machistas, la desigual distribución de las tareas de cuidado y el cultivo de ambientes hostiles de estudio y trabajo.",
-            
-            "Mecanismos de exclusión históricos y sistemáticos.",
-            
-            "Para las mujeres y disidencias no sólo es más difícil ingresar al ámbito de la tecnología sino también permanecer en él.",
-            
-            "Esto no sólo impacta en el área de la computación, sino que repercute en una dimensión más amplia por estar gran parte de nuestra vida atravesada por el uso que hacemos de las tecnologías digitales y los cambios sociales que provocan.",
-            
-           " Es necesario continuar desarticulando estereotipos y visibilizar historias de vida que contradicen los preconceptos dominantes, y poner en evidencia las consecuencias sociales, económicas y políticas que trae la falta de diversidad."
-        ]
+        "paragraphs" : "Esta historia tiene la intención de recuperar la trama que nos atraviesa y de la que somos parte y nos conduce a construir otros mundos posibles que habitar.\n\r  Adoptar una mirada histórica nos invita a reconocer que varones, mujeres e identidades no binarias tenemos nuestras propias historias evolutivas: entrelazadas pero diferenciadas.\n\r Es necesario percibir las ausencias en los textos y en los registros. \n\r Urge conectar los hilos de lo que hemos perdido: saberes y maneras de hacer y resolver la vida que trascienden los modos hegemónicos de ser y estar.\n\r El despojo de determinados tipos de saber que han atravesado mujeres y diversidades, ligados especialmente al dominio de la técnica, ha operado como un factor clave en la división sexual del trabajo que diferenció no sólo las tareas que las mujeres y los hombres debían realizar, sino también sus experiencias, relaciones, creencias y valoraciones sobre sí mismxs.\n\r En la actualidad, las representaciones que profundizan este alejamiento en el caso de la Informática se hallan en buena medida ya estabilizadas en la adolescencia.\n\r Luego de la generación de Grace Hopper y sus contemporáneas, hacia la década de 1970 la presencia de mujeres en la industria comenzó a decrementar notablemente y durante los años 80 sucede el punto de inflexión total.\n\r En Argentina hacia los años 70 las mujeres conformaron el 75% de lxs estudiantes en las carreras de Informática. Sin embargo, en 2013 la proporción se redujo hasta un 18%.\n\r Esta deserción denota un proceso de exclusión histórico y sistemático ligado a la función como trabajadoras no-asalariadas en el hogar y su confinamiento a las tareas reproductivas. La desigual distribución del cuidado dificultó  el acceso a la educación formal así como las posibilidades de conseguir y conservar empleo en la industria. \n\r El ocultamiento del trabajo no pagado de las mujeres tras la pantalla de la inferioridad natural, ha permitido al capitalismo ampliar inmensamente la “parte no pagada del día de trabajo”(Silvia Federici).\n\r Esto es un impacto directo en el desarrollo tecnológico: cabe indagar qué soluciones, ideas, decisiones y propuestas están ausentes en los dispositivos y en las aplicaciones que usamos a causa de la concentración del desarrollo y la innovación en ámbitos donde falta diversidad.\n\r **La desigualdad estructural presente en la sociedad ha condicionado la historia del desarrollo de la computación desde sus inicios, así como lo que conocemos de ella.**\n\r Los relatos que hemos recuperado nos hablan de mujeres e identidades no binarias que han bogado por el trabajo colaborativo, la importancia del desarrollo enfocado en las personas usuarias y consciente del impacto social que producen.\n\r Faltan datos, historias y registros con perspectiva de género.\n\r **Nunca nada es tan visible como cuando no está**.\n\r  Es necesario advertir que continúan mecanismos activos de segregación horizontal -pisos pegajosos- y vertical -techos de cristal-, y profundizar en la desarticulación de estereotipos y mecanismos de exclusión y visibilizar historias de vida que contradicen los preconceptos dominantes, poniendo en evidencia las consecuencias sociales, económicas y políticas.\n\r **Quiénes producen hoy la tecnología que utilizamos?**\n\r Deseamos poder narrar una historia situada, latinoamericana, donde las mujeres y las identidades no comprendidas en el binomio varón-mujer, habitemos la vida desde el deseo a través de códigos emancipadores."
     }
 }

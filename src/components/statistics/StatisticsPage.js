@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'styled-components'
+import Markdown from 'react-markdown'
 
 const Wrapper = styled.div`
     width:100%;
-    min-height: 100vh;
     max-width:${ props => props.theme.layout.l}px;
     margin:0 auto;
-    color: ${props => props.color}
+    color: ${props => props.color};
+    min-height:100vh;
     
     @media (max-width : ${props => props.theme.layout.l}px){
         overflow-x: hidden;
@@ -23,12 +24,12 @@ const Layout = styled.div`
     }
 `
 const Info = styled.div`
-    padding:5%;
+    padding-top:150px;
 `;
 
 const IllustrationSection = styled.div`
     position:relative;
-    align-self:center;
+    align-self:top;
 
     left:${props => props.collagePosition === "left" ? "-20%":"" };
     right:${props => props.collagePosition === "right" ? "-20%":"" };
@@ -41,17 +42,36 @@ const Image = styled.img`
 `
 
 const SectionTitle= styled.h2`
-    padding: 5px 10px;
     border-radius: 10px;
     font-size: 3em;
-    color:#FFFFFF;
- 
+    color:#f7f3ad;
+
+    &::after{
+        content: "()";
+        margin-left: 10px;
+    }
+    
 `
 
-const SectionTexts= styled.p`
+const SectionTexts= styled(Markdown)`
     color: #FFFFFF;
     font-size: 1.3em;
     line-height:1.8em;
+    margin-left:70px;
+
+    &::before, ::after{
+        content:"{";
+        color: #a463d6;
+        margin-left:-70px;
+        font-size: 3em;
+    }
+
+    &::after{
+        content:"}";
+        color: #a463d6;
+        margin-right:100px;
+        font-size: 3em;
+    }
 `
 
 const GraphicsSection = styled.div`
@@ -69,16 +89,10 @@ const StatisticsPage = (props) => {
                 </IllustrationSection>
                 <Info>
                     <SectionTitle color={props.color}>{pageContent.title}</SectionTitle>
-                    {pageContent.texts.map((text, key) => {
-                        return(
-                            <SectionTexts key={key}>{text}</SectionTexts>
-                        )
-                    } ) }
+                    <SectionTexts>{pageContent.texts}</SectionTexts>
                 </Info>
             </Layout>
-            <GraphicsSection>
-
-            </GraphicsSection>
+            <GraphicsSection> </GraphicsSection>
         </Wrapper>
     );
 };
